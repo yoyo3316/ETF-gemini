@@ -151,28 +151,6 @@
         "current_weight": 0.59
       },
       {
-        "code": "2368",
-        "name": "金像電子（股）公司",
-        "type": "增持",
-        "count_change": 15,
-        "weight_change": 0.12,
-        "prev_count": 361,
-        "prev_weight": 2.65,
-        "current_count": 376,
-        "current_weight": 2.77
-      },
-      {
-        "code": "3044",
-        "name": "健鼎科技",
-        "type": "增持",
-        "count_change": 15,
-        "weight_change": 0.03,
-        "prev_count": 321,
-        "prev_weight": 1.36,
-        "current_count": 336,
-        "current_weight": 1.39
-      },
-      {
         "code": "6274",
         "name": "台燿科技",
         "type": "增持",
@@ -182,6 +160,17 @@
         "prev_weight": 1.88,
         "current_count": 360,
         "current_weight": 1.88
+      },
+      {
+        "code": "2368",
+        "name": "金像電子（股）公司",
+        "type": "增持",
+        "count_change": 15,
+        "weight_change": 0.12,
+        "prev_count": 361,
+        "prev_weight": 2.65,
+        "current_count": 376,
+        "current_weight": 2.77
       },
       {
         "code": "2330",
@@ -195,15 +184,15 @@
         "current_weight": 6.71
       },
       {
-        "code": "3211",
-        "name": "順達科技",
+        "code": "3044",
+        "name": "健鼎科技",
         "type": "增持",
-        "count_change": 12,
-        "weight_change": 0.01,
-        "prev_count": 250,
-        "prev_weight": 0.94,
-        "current_count": 262,
-        "current_weight": 0.95
+        "count_change": 15,
+        "weight_change": 0.03,
+        "prev_count": 321,
+        "prev_weight": 1.36,
+        "current_count": 336,
+        "current_weight": 1.39
       },
       {
         "code": "5234",
@@ -215,6 +204,17 @@
         "prev_weight": 1.65,
         "current_count": 360,
         "current_weight": 1.61
+      },
+      {
+        "code": "3211",
+        "name": "順達科技",
+        "type": "增持",
+        "count_change": 12,
+        "weight_change": 0.01,
+        "prev_count": 250,
+        "prev_weight": 0.94,
+        "current_count": 262,
+        "current_weight": 0.95
       },
       {
         "code": "8114",
@@ -239,6 +239,17 @@
         "current_weight": 1.79
       },
       {
+        "code": "2345",
+        "name": "智邦科技",
+        "type": "增持",
+        "count_change": 9,
+        "weight_change": 0.02,
+        "prev_count": 194,
+        "prev_weight": 2.56,
+        "current_count": 203,
+        "current_weight": 2.58
+      },
+      {
         "code": "2376",
         "name": "技嘉科技",
         "type": "增持",
@@ -259,17 +270,6 @@
         "prev_weight": 0.65,
         "current_count": 207,
         "current_weight": 0.64
-      },
-      {
-        "code": "2345",
-        "name": "智邦科技",
-        "type": "增持",
-        "count_change": 9,
-        "weight_change": 0.02,
-        "prev_count": 194,
-        "prev_weight": 2.56,
-        "current_count": 203,
-        "current_weight": 2.58
       },
       {
         "code": "5434",
@@ -349,17 +349,6 @@
         "current_weight": 1.75
       },
       {
-        "code": "3293",
-        "name": "鈊象電子",
-        "type": "增持",
-        "count_change": 3,
-        "weight_change": 0.0,
-        "prev_count": 84,
-        "prev_weight": 0.84,
-        "current_count": 87,
-        "current_weight": 0.84
-      },
-      {
         "code": "4749",
         "name": "新應材",
         "type": "增持",
@@ -369,6 +358,17 @@
         "prev_weight": 0.83,
         "current_count": 79,
         "current_weight": 0.83
+      },
+      {
+        "code": "3293",
+        "name": "鈊象電子",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": 0.0,
+        "prev_count": 84,
+        "prev_weight": 0.84,
+        "current_count": 87,
+        "current_weight": 0.84
       },
       {
         "code": "6669",
@@ -382,17 +382,6 @@
         "current_weight": 3.18
       },
       {
-        "code": "3653",
-        "name": "健策精密工業",
-        "type": "增持",
-        "count_change": 2,
-        "weight_change": 0.16,
-        "prev_count": 54,
-        "prev_weight": 1.64,
-        "current_count": 56,
-        "current_weight": 1.8
-      },
-      {
         "code": "6515",
         "name": "穎崴科技",
         "type": "增持",
@@ -402,6 +391,17 @@
         "prev_weight": 1.09,
         "current_count": 39,
         "current_weight": 1.11
+      },
+      {
+        "code": "3653",
+        "name": "健策精密工業",
+        "type": "增持",
+        "count_change": 2,
+        "weight_change": 0.16,
+        "prev_count": 54,
+        "prev_weight": 1.64,
+        "current_count": 56,
+        "current_weight": 1.8
       },
       {
         "code": "6510",
