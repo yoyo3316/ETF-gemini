@@ -1,107 +1,130 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2025/12/02",
-    "previous_date": "2025/12/01",
-    "price": "14.57",
+    "latest_date": "2025/12/03",
+    "previous_date": "2025/12/02",
+    "price": "14.60",
     "change_value": "+0.03",
     "change_percent": "+0.21%",
     "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2025/12/02",
-    "previous_date": "2025/12/01",
-    "price": "15.78",
-    "change_value": "-0.10",
-    "change_percent": "-0.63%",
+    "latest_date": "2025/12/03",
+    "previous_date": "2025/12/02",
+    "price": "15.83",
+    "change_value": "+0.05",
+    "change_percent": "+0.32%",
     "daily_changes": [
       {
         "code": "C_NTD",
         "name": "CASH",
-        "type": "增持",
-        "count_change": 3161353,
-        "weight_change": 8.09,
-        "prev_count": 943660,
-        "prev_weight": 2.46,
-        "current_count": 4105013,
-        "current_weight": 10.55
+        "type": "減持",
+        "count_change": -2217023,
+        "weight_change": -5.82,
+        "prev_count": 4105013,
+        "prev_weight": 10.55,
+        "current_count": 1887990,
+        "current_weight": 4.73
       },
       {
         "code": "RDI_NTD",
         "name": "RECEIVABLES FOR DISPOSAL OF INVESTMENTS",
-        "type": "減持",
-        "count_change": -709559,
-        "weight_change": -1.74,
-        "prev_count": -2379722,
-        "prev_weight": -6.2,
-        "current_count": -3089280,
-        "current_weight": -7.94
+        "type": "增持",
+        "count_change": 1614178,
+        "weight_change": 4.25,
+        "prev_count": -3089280,
+        "prev_weight": -7.94,
+        "current_count": -1475102,
+        "current_weight": -3.69
       },
       {
-        "code": "3711",
-        "name": "日月光投控",
+        "code": "2317",
+        "name": "鴻海",
         "type": "增持",
-        "count_change": 622,
-        "weight_change": 0.36,
-        "prev_count": 611,
-        "prev_weight": 0.36,
-        "current_count": 1233,
-        "current_weight": 0.72
+        "count_change": 956,
+        "weight_change": 0.53,
+        "prev_count": 4787,
+        "prev_weight": 2.73,
+        "current_count": 5743,
+        "current_weight": 3.26
       },
       {
-        "code": "2454",
-        "name": "聯發科",
+        "code": "6139",
+        "name": "亞翔",
         "type": "增持",
-        "count_change": 129,
-        "weight_change": 0.38,
-        "prev_count": 623,
-        "prev_weight": 2.35,
-        "current_count": 752,
-        "current_weight": 2.73
+        "count_change": 402,
+        "weight_change": 0.51,
+        "prev_count": 950,
+        "prev_weight": 1.07,
+        "current_count": 1352,
+        "current_weight": 1.58
       },
       {
-        "code": "2308",
-        "name": "台達電",
+        "code": "2330",
+        "name": "台積電",
         "type": "增持",
-        "count_change": 124,
-        "weight_change": 0.33,
-        "prev_count": 2259,
-        "prev_weight": 5.73,
-        "current_count": 2383,
-        "current_weight": 6.06
-      },
-      {
-        "code": "3661",
-        "name": "世芯-KY",
-        "type": "增持",
-        "count_change": 61,
-        "weight_change": 0.57,
-        "prev_count": 148,
-        "prev_weight": 1.27,
-        "current_count": 209,
-        "current_weight": 1.84
+        "count_change": 123,
+        "weight_change": 0.34,
+        "prev_count": 2351,
+        "prev_weight": 8.64,
+        "current_count": 2474,
+        "current_weight": 8.98
       },
       {
         "code": "6669",
         "name": "緯穎",
         "type": "增持",
-        "count_change": 35,
-        "weight_change": 0.39,
-        "prev_count": 551,
-        "prev_weight": 6.36,
-        "current_count": 586,
-        "current_weight": 6.75
+        "count_change": 15,
+        "weight_change": 0.17,
+        "prev_count": 586,
+        "prev_weight": 6.75,
+        "current_count": 601,
+        "current_weight": 6.92
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2025/12/02",
-    "previous_date": "2025/12/01",
-    "price": "13.40",
-    "change_value": "-0.14",
-    "change_percent": "-1.03%",
-    "daily_changes": []
+    "latest_date": "2025/12/03",
+    "previous_date": "2025/12/02",
+    "price": "13.52",
+    "change_value": "+0.12",
+    "change_percent": "+0.90%",
+    "daily_changes": [
+      {
+        "code": "8210",
+        "name": "勤誠",
+        "type": "減持",
+        "count_change": -384,
+        "weight_change": -1.3,
+        "prev_count": 769,
+        "prev_weight": 2.57,
+        "current_count": 385,
+        "current_weight": 1.27
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "type": "增持",
+        "count_change": 20,
+        "weight_change": 0.07,
+        "prev_count": 429,
+        "prev_weight": 2.45,
+        "current_count": 449,
+        "current_weight": 2.52
+      },
+      {
+        "code": "5536",
+        "name": "聖暉",
+        "type": "增持",
+        "count_change": 13,
+        "weight_change": 0.3,
+        "prev_count": 2258,
+        "prev_weight": 5.55,
+        "current_count": 2271,
+        "current_weight": 5.85
+      }
+    ]
   }
 }
