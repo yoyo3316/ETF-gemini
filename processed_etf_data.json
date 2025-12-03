@@ -17,28 +17,6 @@
     "change_percent": "+0.32%",
     "daily_changes": [
       {
-        "code": "C_NTD",
-        "name": "CASH",
-        "type": "減持",
-        "count_change": -2217023,
-        "weight_change": -5.82,
-        "prev_count": 4105013,
-        "prev_weight": 10.55,
-        "current_count": 1887990,
-        "current_weight": 4.73
-      },
-      {
-        "code": "RDI_NTD",
-        "name": "RECEIVABLES FOR DISPOSAL OF INVESTMENTS",
-        "type": "增持",
-        "count_change": 1614178,
-        "weight_change": 4.25,
-        "prev_count": -3089280,
-        "prev_weight": -7.94,
-        "current_count": -1475102,
-        "current_weight": -3.69
-      },
-      {
         "code": "2317",
         "name": "鴻海",
         "type": "增持",
