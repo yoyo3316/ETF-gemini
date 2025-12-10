@@ -1,96 +1,107 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2025/12/09",
-    "previous_date": "2025/12/08",
-    "price": "14.76",
-    "change_value": "+0.04",
-    "change_percent": "+0.27%",
+    "latest_date": "2025/12/10",
+    "previous_date": "2025/12/09",
+    "price": "14.86",
+    "change_value": "+0.10",
+    "change_percent": "+0.68%",
     "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2025/12/09",
-    "previous_date": "2025/12/08",
-    "price": "16.06",
-    "change_value": "-0.02",
-    "change_percent": "-0.12%",
+    "latest_date": "2025/12/10",
+    "previous_date": "2025/12/09",
+    "price": "16.33",
+    "change_value": "+0.27",
+    "change_percent": "+1.68%",
     "daily_changes": [
       {
-        "code": "1560",
-        "name": "中砂",
-        "type": "刪除",
-        "count_change": -413,
-        "weight_change": -0.37,
-        "prev_count": 414,
-        "prev_weight": 0.37,
-        "current_count": 1,
-        "current_weight": 0
+        "code": "3231",
+        "name": "緯創",
+        "type": "減持",
+        "count_change": -469,
+        "weight_change": -0.21,
+        "prev_count": 3559,
+        "prev_weight": 1.31,
+        "current_count": 3090,
+        "current_weight": 1.1
+      },
+      {
+        "code": "8358",
+        "name": "金居",
+        "type": "增持",
+        "count_change": 437,
+        "weight_change": 0.35,
+        "prev_count": 1184,
+        "prev_weight": 0.74,
+        "current_count": 1621,
+        "current_weight": 1.09
+      },
+      {
+        "code": "3715",
+        "name": "定穎投控",
+        "type": "增持",
+        "count_change": 406,
+        "weight_change": 0.11,
+        "prev_count": 2645,
+        "prev_weight": 0.75,
+        "current_count": 3051,
+        "current_weight": 0.86
       },
       {
         "code": "2404",
         "name": "漢唐",
-        "type": "新增",
-        "count_change": 161,
-        "weight_change": 0.33,
-        "prev_count": 0,
-        "prev_weight": 0.0,
-        "current_count": 161,
-        "current_weight": 0.33
+        "type": "增持",
+        "count_change": 160,
+        "weight_change": 0.35,
+        "prev_count": 161,
+        "prev_weight": 0.33,
+        "current_count": 321,
+        "current_weight": 0.68
       },
       {
         "code": "2345",
         "name": "智邦",
         "type": "增持",
-        "count_change": 133,
-        "weight_change": 0.42,
-        "prev_count": 1988,
-        "prev_weight": 4.77,
-        "current_count": 2121,
-        "current_weight": 5.19
+        "count_change": 55,
+        "weight_change": 0.52,
+        "prev_count": 2121,
+        "prev_weight": 5.19,
+        "current_count": 2176,
+        "current_weight": 5.71
       },
       {
-        "code": "5274",
-        "name": "信驊",
+        "code": "2383",
+        "name": "台光電",
         "type": "增持",
-        "count_change": 9,
-        "weight_change": 0.18,
-        "prev_count": 76,
-        "prev_weight": 1.22,
-        "current_count": 85,
-        "current_weight": 1.4
-      },
-      {
-        "code": "3037",
-        "name": "欣興",
-        "type": "減持",
-        "count_change": -1,
-        "weight_change": 0.0,
-        "prev_count": 1,
-        "prev_weight": 0,
-        "current_count": 0,
-        "current_weight": 0.0
+        "count_change": 49,
+        "weight_change": 0.45,
+        "prev_count": 1633,
+        "prev_weight": 6.02,
+        "current_count": 1682,
+        "current_weight": 6.47
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2025/12/09",
-    "previous_date": "2025/12/08",
-    "price": "13.79",
-    "change_value": "+0.03",
-    "change_percent": "+0.22%",
+    "latest_date": "2025/12/10",
+    "previous_date": "2025/12/09",
+    "price": "13.99",
+    "change_value": "+0.20",
+    "change_percent": "+1.45%",
     "daily_changes": [
       {
         "code": "1785",
         "name": "光洋科",
         "type": "增持",
-        "count_change": 519,
-        "weight_change": 0.11,
-        "prev_count": 1481,
-        "prev_weight": 0.32,
-        "current_count": 2000,
-        "current_weight": 0.43
+        "count_change": 251,
+        "weight_change": 0.08,
+        "prev_count": 2000,
+        "prev_weight": 0.43,
+        "current_count": 2251,
+        "current_weight": 0.51
       }
     ]
   }
