@@ -1,64 +1,74 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2025/12/12",
-    "previous_date": "2025/12/11",
-    "price": "14.99",
-    "change_value": "+0.19",
-    "change_percent": "+1.28%",
+    "latest_date": "2025/12/15",
+    "previous_date": "2025/12/12",
+    "price": "14.83",
+    "change_value": "-0.16",
+    "change_percent": "-1.07%",
     "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2025/12/12",
-    "previous_date": "2025/12/11",
-    "price": "16.43",
-    "change_value": "+0.10",
-    "change_percent": "+0.61%",
+    "latest_date": "2025/12/15",
+    "previous_date": "2025/12/12",
+    "price": "16.22",
+    "change_value": "-0.21",
+    "change_percent": "-1.28%",
     "daily_changes": [
       {
-        "code": "2059",
-        "name": "川湖",
+        "code": "2345",
+        "name": "智邦",
         "type": "增持",
-        "count_change": 14,
+        "count_change": 100,
+        "weight_change": 0.43,
+        "prev_count": 2176,
+        "prev_weight": 5.9,
+        "current_count": 2276,
+        "current_weight": 6.33
+      },
+      {
+        "code": "2330",
+        "name": "台積電",
+        "type": "增持",
+        "count_change": 87,
+        "weight_change": -0.09,
+        "prev_count": 2635,
+        "prev_weight": 9.16,
+        "current_count": 2722,
+        "current_weight": 9.07
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "type": "增持",
+        "count_change": 49,
         "weight_change": 0.05,
-        "prev_count": 178,
-        "prev_weight": 1.64,
-        "current_count": 192,
-        "current_weight": 1.69
+        "prev_count": 1682,
+        "prev_weight": 6.34,
+        "current_count": 1731,
+        "current_weight": 6.39
+      },
+      {
+        "code": "5274",
+        "name": "信驊",
+        "type": "增持",
+        "count_change": 17,
+        "weight_change": 0.25,
+        "prev_count": 85,
+        "prev_weight": 1.34,
+        "current_count": 102,
+        "current_weight": 1.59
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2025/12/12",
-    "previous_date": "2025/12/11",
-    "price": "14.16",
-    "change_value": "+0.12",
-    "change_percent": "+0.85%",
-    "daily_changes": [
-      {
-        "code": "2481",
-        "name": "強茂",
-        "type": "減持",
-        "count_change": -408,
-        "weight_change": -0.14,
-        "prev_count": 2044,
-        "prev_weight": 0.63,
-        "current_count": 1636,
-        "current_weight": 0.49
-      },
-      {
-        "code": "1785",
-        "name": "光洋科",
-        "type": "增持",
-        "count_change": 285,
-        "weight_change": 0.08,
-        "prev_count": 2251,
-        "prev_weight": 0.51,
-        "current_count": 2536,
-        "current_weight": 0.59
-      }
-    ]
+    "latest_date": "2025/12/15",
+    "previous_date": "2025/12/12",
+    "price": "13.97",
+    "change_value": "-0.19",
+    "change_percent": "-1.34%",
+    "daily_changes": []
   }
 }
