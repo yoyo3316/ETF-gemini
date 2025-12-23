@@ -1,151 +1,63 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2025/12/22",
-    "previous_date": "2025/12/19",
-    "price": "14.91",
-    "change_value": "+0.20",
-    "change_percent": "+1.36%",
+    "latest_date": "2025/12/23",
+    "previous_date": "2025/12/22",
+    "price": "14.90",
+    "change_value": "-0.01",
+    "change_percent": "-0.07%",
     "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2025/12/22",
-    "previous_date": "2025/12/19",
-    "price": "16.25",
-    "change_value": "+0.26",
-    "change_percent": "+1.63%",
+    "latest_date": "2025/12/23",
+    "previous_date": "2025/12/22",
+    "price": "16.29",
+    "change_value": "+0.04",
+    "change_percent": "+0.25%",
     "daily_changes": [
-      {
-        "code": "6139",
-        "name": "亞翔",
-        "type": "減持",
-        "count_change": -857,
-        "weight_change": -1.16,
-        "prev_count": 1604,
-        "prev_weight": 2.04,
-        "current_count": 747,
-        "current_weight": 0.88
-      },
-      {
-        "code": "6274",
-        "name": "台燿",
-        "type": "增持",
-        "count_change": 302,
-        "weight_change": 0.46,
-        "prev_count": 4255,
-        "prev_weight": 3.82,
-        "current_count": 4557,
-        "current_weight": 4.28
-      },
-      {
-        "code": "2368",
-        "name": "金像電",
-        "type": "增持",
-        "count_change": 106,
-        "weight_change": 0.42,
-        "prev_count": 4131,
-        "prev_weight": 5.28,
-        "current_count": 4237,
-        "current_weight": 5.7
-      },
       {
         "code": "2404",
         "name": "漢唐",
         "type": "增持",
-        "count_change": 104,
-        "weight_change": 0.12,
-        "prev_count": 551,
-        "prev_weight": 1.14,
-        "current_count": 655,
-        "current_weight": 1.26
+        "count_change": 131,
+        "weight_change": 0.28,
+        "prev_count": 655,
+        "prev_weight": 1.26,
+        "current_count": 786,
+        "current_weight": 1.54
       },
       {
-        "code": "3081",
-        "name": "聯亞",
-        "type": "刪除",
-        "count_change": -101,
-        "weight_change": -0.13,
-        "prev_count": 102,
-        "prev_weight": 0.13,
-        "current_count": 1,
-        "current_weight": 0
-      },
-      {
-        "code": "8299",
-        "name": "群聯",
+        "code": "2383",
+        "name": "台光電",
         "type": "增持",
-        "count_change": 83,
-        "weight_change": 0.29,
-        "prev_count": 882,
-        "prev_weight": 2.06,
-        "current_count": 965,
-        "current_weight": 2.35
-      },
-      {
-        "code": "2308",
-        "name": "台達電",
-        "type": "增持",
-        "count_change": 75,
-        "weight_change": 0.29,
-        "prev_count": 2457,
-        "prev_weight": 4.71,
-        "current_count": 2532,
-        "current_weight": 5
-      },
-      {
-        "code": "2330",
-        "name": "台積電",
-        "type": "增持",
-        "count_change": 60,
-        "weight_change": 0.26,
-        "prev_count": 3086,
-        "prev_weight": 9.28,
-        "current_count": 3146,
-        "current_weight": 9.54
-      },
-      {
-        "code": "3017",
-        "name": "奇鋐",
-        "type": "增持",
-        "count_change": 53,
-        "weight_change": 0.17,
-        "prev_count": 2083,
-        "prev_weight": 6.35,
-        "current_count": 2136,
-        "current_weight": 6.52
+        "count_change": 50,
+        "weight_change": 0.18,
+        "prev_count": 1948,
+        "prev_weight": 6.45,
+        "current_count": 1998,
+        "current_weight": 6.63
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2025/12/22",
-    "previous_date": "2025/12/19",
+    "latest_date": "2025/12/23",
+    "previous_date": "2025/12/22",
     "price": "14.02",
-    "change_value": "+0.19",
-    "change_percent": "+1.37%",
+    "change_value": "未知",
+    "change_percent": "未知",
     "daily_changes": [
-      {
-        "code": "3008",
-        "name": "大立光",
-        "type": "新增",
-        "count_change": 65,
-        "weight_change": 0.51,
-        "prev_count": 0,
-        "prev_weight": 0.0,
-        "current_count": 65,
-        "current_weight": 0.51
-      },
       {
         "code": "6177",
         "name": "達麗",
         "type": "減持",
-        "count_change": -13,
-        "weight_change": -0.01,
-        "prev_count": 2994,
-        "prev_weight": 0.53,
-        "current_count": 2981,
-        "current_weight": 0.52
+        "count_change": -298,
+        "weight_change": -0.04,
+        "prev_count": 2981,
+        "prev_weight": 0.52,
+        "current_count": 2683,
+        "current_weight": 0.48
       }
     ]
   }
