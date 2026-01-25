@@ -1,0 +1,14 @@
+# 只追蹤這兩個檔案
+*
+!processed_etf_data.json
+!stock_history_data.json
+!.gitignore
+!README.md
+
+# 忽略所有其他檔案
+*.py
+*.bat
+*_holdings.json
+*.txt
+logs/
+.git/
