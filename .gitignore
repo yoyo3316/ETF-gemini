@@ -1,14 +1,20 @@
-# 只追蹤這兩個檔案
-*
-!processed_etf_data.json
-!stock_history_data.json
-!.gitignore
-!README.md
-
-# 忽略所有其他檔案
+# Python 檔案
 *.py
+*.pyc
+__pycache__/
+
+# 批次檔
 *.bat
+
+# ETF 原始資料檔案
 *_holdings.json
+
+# 日誌
 *.txt
 logs/
+
+# Git 相關
 .git/
+
+# 其他
+*.bak
