@@ -1,63 +1,75 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2026/02/09",
-    "previous_date": "2026/02/06",
-    "price": "16.59",
-    "change_value": "+0.44",
-    "change_percent": "+2.72%",
-    "daily_changes": []
+    "latest_date": "2026/02/10",
+    "previous_date": "2026/02/09",
+    "price": "16.88",
+    "change_value": "+0.29",
+    "change_percent": "+1.75%",
+    "daily_changes": [
+      {
+        "code": "202602TX",
+        "name": "台灣證交所加權股價指數",
+        "type": "減持",
+        "count_change": -1,
+        "weight_change": -1.3,
+        "prev_count": 0,
+        "prev_weight": 1.3,
+        "current_count": 0,
+        "current_weight": 0.0
+      },
+      {
+        "code": "202603TX",
+        "name": "台灣證交所加權股價指數",
+        "type": "增持",
+        "count_change": 0,
+        "weight_change": 2.48,
+        "prev_count": 0,
+        "prev_weight": 0.0,
+        "current_count": 0,
+        "current_weight": 2.48
+      }
+    ]
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2026/02/09",
-    "previous_date": "2026/02/06",
-    "price": "18.34",
-    "change_value": "+0.52",
-    "change_percent": "+2.92%",
+    "latest_date": "2026/02/10",
+    "previous_date": "2026/02/09",
+    "price": "18.66",
+    "change_value": "+0.32",
+    "change_percent": "+1.74%",
     "daily_changes": [
       {
-        "code": "3661",
-        "name": "世芯-KY",
+        "code": "3665",
+        "name": "貿聯-KY",
         "type": "增持",
-        "count_change": 24,
-        "weight_change": 0.2,
-        "prev_count": 516,
-        "prev_weight": 2.82,
-        "current_count": 540,
-        "current_weight": 3.02
+        "count_change": 170,
+        "weight_change": 0.67,
+        "prev_count": 1671,
+        "prev_weight": 3.57,
+        "current_count": 1841,
+        "current_weight": 4.24
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2026/02/09",
-    "previous_date": "2026/02/06",
-    "price": "15.36",
-    "change_value": "+0.36",
-    "change_percent": "+2.40%",
+    "latest_date": "2026/02/10",
+    "previous_date": "2026/02/09",
+    "price": "15.54",
+    "change_value": "+0.18",
+    "change_percent": "+1.17%",
     "daily_changes": [
       {
-        "code": "3324",
-        "name": "雙鴻",
-        "type": "增持",
-        "count_change": 444,
-        "weight_change": 1.66,
-        "prev_count": 108,
-        "prev_weight": 0.38,
-        "current_count": 552,
-        "current_weight": 2.04
-      },
-      {
-        "code": "8210",
-        "name": "勤誠",
-        "type": "增持",
-        "count_change": 100,
-        "weight_change": 0.29,
-        "prev_count": 102,
-        "prev_weight": 0.34,
-        "current_count": 202,
-        "current_weight": 0.63
+        "code": "2472",
+        "name": "立隆電",
+        "type": "減持",
+        "count_change": -221,
+        "weight_change": -0.09,
+        "prev_count": 1926,
+        "prev_weight": 0.7,
+        "current_count": 1705,
+        "current_weight": 0.61
       }
     ]
   }
