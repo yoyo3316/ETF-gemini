@@ -82,17 +82,6 @@
         "current_weight": 0.54
       },
       {
-        "code": "2451",
-        "name": "創見",
-        "type": "減持",
-        "count_change": -100,
-        "weight_change": -0.06,
-        "prev_count": 560,
-        "prev_weight": 0.39,
-        "current_count": 460,
-        "current_weight": 0.33
-      },
-      {
         "code": "6472",
         "name": "保瑞",
         "type": "刪除",
@@ -102,6 +91,17 @@
         "prev_weight": 0.18,
         "current_count": 0,
         "current_weight": 0.0
+      },
+      {
+        "code": "2451",
+        "name": "創見",
+        "type": "減持",
+        "count_change": -100,
+        "weight_change": -0.06,
+        "prev_count": 560,
+        "prev_weight": 0.39,
+        "current_count": 460,
+        "current_weight": 0.33
       }
     ]
   }
