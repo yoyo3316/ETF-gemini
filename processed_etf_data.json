@@ -1,107 +1,129 @@
 {
   "00980A": {
     "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2026/02/11",
-    "previous_date": "2026/02/10",
-    "price": "17.07",
-    "change_value": "+0.19",
-    "change_percent": "+1.13%",
+    "latest_date": "2026/02/23",
+    "previous_date": "2026/02/11",
+    "price": "17.16",
+    "change_value": "+0.09",
+    "change_percent": "+0.53%",
     "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
-    "latest_date": "2026/02/11",
-    "previous_date": "2026/02/10",
-    "price": "18.88",
-    "change_value": "+0.22",
-    "change_percent": "+1.18%",
+    "latest_date": "2026/02/23",
+    "previous_date": "2026/02/11",
+    "price": "18.99",
+    "change_value": "+0.11",
+    "change_percent": "+0.58%",
     "daily_changes": [
       {
-        "code": "2317",
-        "name": "鴻海",
-        "type": "新增",
-        "count_change": 862,
-        "weight_change": 0.32,
-        "prev_count": 1,
-        "prev_weight": 0,
-        "current_count": 863,
-        "current_weight": 0.32
+        "code": "1802",
+        "name": "台玻",
+        "type": "增持",
+        "count_change": 1757,
+        "weight_change": 0.17,
+        "prev_count": 2065,
+        "prev_weight": 0.16,
+        "current_count": 3822,
+        "current_weight": 0.33
       },
       {
         "code": "2449",
         "name": "京元電子",
         "type": "增持",
-        "count_change": 449,
-        "weight_change": 0.24,
-        "prev_count": 1260,
-        "prev_weight": 0.64,
-        "current_count": 1709,
-        "current_weight": 0.88
+        "count_change": 527,
+        "weight_change": 0.29,
+        "prev_count": 1709,
+        "prev_weight": 0.88,
+        "current_count": 2236,
+        "current_weight": 1.17
       },
       {
-        "code": "3661",
-        "name": "世芯-KY",
+        "code": "4979",
+        "name": "華星光",
         "type": "增持",
-        "count_change": 19,
-        "weight_change": 0.15,
-        "prev_count": 540,
-        "prev_weight": 2.97,
-        "current_count": 559,
-        "current_weight": 3.12
+        "count_change": 490,
+        "weight_change": 0.3,
+        "prev_count": 329,
+        "prev_weight": 0.18,
+        "current_count": 819,
+        "current_weight": 0.48
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "type": "增持",
+        "count_change": 391,
+        "weight_change": 1.03,
+        "prev_count": 2560,
+        "prev_weight": 5.32,
+        "current_count": 2951,
+        "current_weight": 6.35
+      },
+      {
+        "code": "5269",
+        "name": "祥碩",
+        "type": "刪除",
+        "count_change": -140,
+        "weight_change": -0.29,
+        "prev_count": 140,
+        "prev_weight": 0.29,
+        "current_count": 0,
+        "current_weight": 0.0
+      },
+      {
+        "code": "2404",
+        "name": "漢唐",
+        "type": "增持",
+        "count_change": 59,
+        "weight_change": 0.11,
+        "prev_count": 165,
+        "prev_weight": 0.25,
+        "current_count": 224,
+        "current_weight": 0.36
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "type": "刪除",
+        "count_change": -39,
+        "weight_change": -0.19,
+        "prev_count": 40,
+        "prev_weight": 0.2,
+        "current_count": 1,
+        "current_weight": 0.01
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "type": "增持",
+        "count_change": 36,
+        "weight_change": 0.19,
+        "prev_count": 988,
+        "prev_weight": 4.55,
+        "current_count": 1024,
+        "current_weight": 4.74
       }
     ]
   },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
-    "latest_date": "2026/02/11",
-    "previous_date": "2026/02/10",
-    "price": "15.73",
-    "change_value": "+0.19",
-    "change_percent": "+1.22%",
+    "latest_date": "2026/02/23",
+    "previous_date": "2026/02/11",
+    "price": "15.98",
+    "change_value": "+0.25",
+    "change_percent": "+1.59%",
     "daily_changes": [
-      {
-        "code": "8210",
-        "name": "勤誠",
-        "type": "增持",
-        "count_change": 370,
-        "weight_change": 1.16,
-        "prev_count": 202,
-        "prev_weight": 0.66,
-        "current_count": 572,
-        "current_weight": 1.82
-      },
       {
         "code": "2472",
         "name": "立隆電",
         "type": "減持",
-        "count_change": -182,
-        "weight_change": -0.07,
-        "prev_count": 1705,
-        "prev_weight": 0.61,
-        "current_count": 1523,
-        "current_weight": 0.54
-      },
-      {
-        "code": "6472",
-        "name": "保瑞",
-        "type": "刪除",
-        "count_change": -100,
-        "weight_change": -0.18,
-        "prev_count": 100,
-        "prev_weight": 0.18,
-        "current_count": 0,
-        "current_weight": 0.0
-      },
-      {
-        "code": "2451",
-        "name": "創見",
-        "type": "減持",
-        "count_change": -100,
-        "weight_change": -0.06,
-        "prev_count": 560,
-        "prev_weight": 0.39,
-        "current_count": 460,
-        "current_weight": 0.33
+        "count_change": -300,
+        "weight_change": -0.09,
+        "prev_count": 1523,
+        "prev_weight": 0.54,
+        "current_count": 1223,
+        "current_weight": 0.45
       }
     ]
   }
