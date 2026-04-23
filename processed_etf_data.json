@@ -6,19 +6,7 @@
     "price": "21.05",
     "change_value": "-0.29",
     "change_percent": "-1.36%",
-    "daily_changes": [
-      {
-        "code": "202605TX",
-        "name": "台灣證交所加權股價指數",
-        "type": "減持",
-        "count_change": -1,
-        "weight_change": -0.79,
-        "prev_count": 0,
-        "prev_weight": 2.68,
-        "current_count": 0,
-        "current_weight": 1.89
-      }
-    ]
+    "daily_changes": []
   },
   "00981A": {
     "name": "統一台股增長",
@@ -433,6 +421,500 @@
         "prev_weight": 1.82,
         "current_count": 1199,
         "current_weight": 1.71
+      }
+    ]
+  },
+  "00992A": {
+    "name": "群益台灣科技創新主動式ETF",
+    "latest_date": "2026/04/23",
+    "previous_date": "2026/04/22",
+    "price": "16.66",
+    "change_value": "-0.40",
+    "change_percent": "-2.34%",
+    "daily_changes": [
+      {
+        "code": "6271",
+        "name": "同欣電",
+        "type": "增持",
+        "count_change": 500,
+        "weight_change": 0.13,
+        "prev_count": 2089,
+        "prev_weight": 0.83,
+        "current_count": 2589,
+        "current_weight": 0.96
+      },
+      {
+        "code": "2337",
+        "name": "旺宏",
+        "type": "增持",
+        "count_change": 500,
+        "weight_change": 0.11,
+        "prev_count": 771,
+        "prev_weight": 0.22,
+        "current_count": 1271,
+        "current_weight": 0.33
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "type": "增持",
+        "count_change": 361,
+        "weight_change": 0.95,
+        "prev_count": 308,
+        "prev_weight": 0.82,
+        "current_count": 669,
+        "current_weight": 1.77
+      },
+      {
+        "code": "8996",
+        "name": "高力",
+        "type": "增持",
+        "count_change": 200,
+        "weight_change": 0.47,
+        "prev_count": 1489,
+        "prev_weight": 3.8,
+        "current_count": 1689,
+        "current_weight": 4.27
+      },
+      {
+        "code": "3081",
+        "name": "聯亞",
+        "type": "增持",
+        "count_change": 151,
+        "weight_change": 0.93,
+        "prev_count": 229,
+        "prev_weight": 1.47,
+        "current_count": 380,
+        "current_weight": 2.4
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.81,
+        "prev_count": 438,
+        "prev_weight": 3.8,
+        "current_count": 538,
+        "current_weight": 4.61
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.75,
+        "prev_count": 567,
+        "prev_weight": 3.09,
+        "current_count": 667,
+        "current_weight": 3.84
+      },
+      {
+        "code": "3260",
+        "name": "威剛",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.07,
+        "prev_count": 293,
+        "prev_weight": 0.26,
+        "current_count": 393,
+        "current_weight": 0.33
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.14,
+        "prev_count": 2210,
+        "prev_weight": 3.38,
+        "current_count": 2310,
+        "current_weight": 3.52
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.49,
+        "prev_count": 501,
+        "prev_weight": 2.88,
+        "current_count": 601,
+        "current_weight": 3.37
+      },
+      {
+        "code": "5289",
+        "name": "宜鼎",
+        "type": "增持",
+        "count_change": 40,
+        "weight_change": 0.08,
+        "prev_count": 102,
+        "prev_weight": 0.25,
+        "current_count": 142,
+        "current_weight": 0.33
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "type": "增持",
+        "count_change": 15,
+        "weight_change": -0.1,
+        "prev_count": 3265,
+        "prev_weight": 1.53,
+        "current_count": 3280,
+        "current_weight": 1.43
+      },
+      {
+        "code": "2330",
+        "name": "台積電",
+        "type": "增持",
+        "count_change": 6,
+        "weight_change": -0.01,
+        "prev_count": 1305,
+        "prev_weight": 5.71,
+        "current_count": 1311,
+        "current_weight": 5.7
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "type": "增持",
+        "count_change": 6,
+        "weight_change": -0.02,
+        "prev_count": 1171,
+        "prev_weight": 0.53,
+        "current_count": 1177,
+        "current_weight": 0.51
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "type": "增持",
+        "count_change": 5,
+        "weight_change": -0.05,
+        "prev_count": 1103,
+        "prev_weight": 1.89,
+        "current_count": 1108,
+        "current_weight": 1.84
+      },
+      {
+        "code": "3163",
+        "name": "波若威",
+        "type": "增持",
+        "count_change": 5,
+        "weight_change": -0.08,
+        "prev_count": 919,
+        "prev_weight": 2.32,
+        "current_count": 924,
+        "current_weight": 2.24
+      },
+      {
+        "code": "3653",
+        "name": "健策",
+        "type": "增持",
+        "count_change": 5,
+        "weight_change": -0.03,
+        "prev_count": 192,
+        "prev_weight": 2.22,
+        "current_count": 197,
+        "current_weight": 2.19
+      },
+      {
+        "code": "6584",
+        "name": "南俊國際",
+        "type": "增持",
+        "count_change": 4,
+        "weight_change": -0.23,
+        "prev_count": 1333,
+        "prev_weight": 2.29,
+        "current_count": 1337,
+        "current_weight": 2.06
+      },
+      {
+        "code": "6442",
+        "name": "光聖",
+        "type": "增持",
+        "count_change": 4,
+        "weight_change": -0.42,
+        "prev_count": 781,
+        "prev_weight": 3.74,
+        "current_count": 785,
+        "current_weight": 3.32
+      },
+      {
+        "code": "4991",
+        "name": "環宇-KY",
+        "type": "增持",
+        "count_change": 4,
+        "weight_change": -0.1,
+        "prev_count": 688,
+        "prev_weight": 1.02,
+        "current_count": 692,
+        "current_weight": 0.92
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "type": "增持",
+        "count_change": 4,
+        "weight_change": -0.01,
+        "prev_count": 889,
+        "prev_weight": 0.17,
+        "current_count": 893,
+        "current_weight": 0.16
+      },
+      {
+        "code": "4749",
+        "name": "新應材",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.08,
+        "prev_count": 698,
+        "prev_weight": 1.54,
+        "current_count": 701,
+        "current_weight": 1.46
+      },
+      {
+        "code": "6531",
+        "name": "愛普",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.03,
+        "prev_count": 700,
+        "prev_weight": 1.18,
+        "current_count": 703,
+        "current_weight": 1.15
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.23,
+        "prev_count": 713,
+        "prev_weight": 3.35,
+        "current_count": 716,
+        "current_weight": 3.12
+      },
+      {
+        "code": "6274",
+        "name": "台燿",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.06,
+        "prev_count": 633,
+        "prev_weight": 1.32,
+        "current_count": 636,
+        "current_weight": 1.26
+      },
+      {
+        "code": "8299",
+        "name": "群聯",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.14,
+        "prev_count": 708,
+        "prev_weight": 2.68,
+        "current_count": 711,
+        "current_weight": 2.54
+      },
+      {
+        "code": "8021",
+        "name": "尖點",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": 0.02,
+        "prev_count": 688,
+        "prev_weight": 0.66,
+        "current_count": 691,
+        "current_weight": 0.68
+      },
+      {
+        "code": "7751",
+        "name": "竑騰",
+        "type": "增持",
+        "count_change": 2,
+        "weight_change": 0.07,
+        "prev_count": 386,
+        "prev_weight": 1.71,
+        "current_count": 388,
+        "current_weight": 1.78
+      },
+      {
+        "code": "3189",
+        "name": "景碩",
+        "type": "增持",
+        "count_change": 2,
+        "weight_change": -0.02,
+        "prev_count": 484,
+        "prev_weight": 0.51,
+        "current_count": 486,
+        "current_weight": 0.49
+      },
+      {
+        "code": "3533",
+        "name": "嘉澤",
+        "type": "增持",
+        "count_change": 2,
+        "weight_change": -0.23,
+        "prev_count": 466,
+        "prev_weight": 2.64,
+        "current_count": 468,
+        "current_weight": 2.41
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "type": "增持",
+        "count_change": 2,
+        "weight_change": -0.12,
+        "prev_count": 485,
+        "prev_weight": 2.1,
+        "current_count": 487,
+        "current_weight": 1.98
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.18,
+        "prev_count": 464,
+        "prev_weight": 4.31,
+        "current_count": 465,
+        "current_weight": 4.13
+      },
+      {
+        "code": "6510",
+        "name": "精測",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.38,
+        "prev_count": 421,
+        "prev_weight": 3.78,
+        "current_count": 422,
+        "current_weight": 3.4
+      },
+      {
+        "code": "7769",
+        "name": "鴻勁",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.01,
+        "prev_count": 193,
+        "prev_weight": 1.96,
+        "current_count": 194,
+        "current_weight": 1.95
+      },
+      {
+        "code": "6805",
+        "name": "富世達",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.07,
+        "prev_count": 297,
+        "prev_weight": 1.26,
+        "current_count": 298,
+        "current_weight": 1.19
+      },
+      {
+        "code": "3529",
+        "name": "力旺",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.04,
+        "prev_count": 154,
+        "prev_weight": 1.33,
+        "current_count": 155,
+        "current_weight": 1.29
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.05,
+        "prev_count": 150,
+        "prev_weight": 3.44,
+        "current_count": 151,
+        "current_weight": 3.39
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.01,
+        "prev_count": 319,
+        "prev_weight": 0.32,
+        "current_count": 320,
+        "current_weight": 0.31
+      },
+      {
+        "code": "3131",
+        "name": "弘塑",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.1,
+        "prev_count": 153,
+        "prev_weight": 1.11,
+        "current_count": 154,
+        "current_weight": 1.01
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.07,
+        "prev_count": 288,
+        "prev_weight": 2.97,
+        "current_count": 289,
+        "current_weight": 2.9
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.05,
+        "prev_count": 356,
+        "prev_weight": 1.53,
+        "current_count": 357,
+        "current_weight": 1.48
+      },
+      {
+        "code": "3324",
+        "name": "雙鴻",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.02,
+        "prev_count": 150,
+        "prev_weight": 0.37,
+        "current_count": 151,
+        "current_weight": 0.35
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": -0.23,
+        "prev_count": 257,
+        "prev_weight": 2.16,
+        "current_count": 258,
+        "current_weight": 1.93
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "type": "增持",
+        "count_change": 1,
+        "weight_change": 0.1,
+        "prev_count": 259,
+        "prev_weight": 2.03,
+        "current_count": 260,
+        "current_weight": 2.13
       }
     ]
   }
