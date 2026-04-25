@@ -1,13 +1,4 @@
 {
-  "00980A": {
-    "name": "野村臺灣智慧優選主動式ETF",
-    "latest_date": "2026/04/24",
-    "previous_date": "2026/04/23",
-    "price": "21.52",
-    "change_value": "+0.47",
-    "change_percent": "+2.23%",
-    "daily_changes": []
-  },
   "00981A": {
     "name": "統一台股增長",
     "latest_date": "2026/04/24",
@@ -150,6 +141,15 @@
       }
     ]
   },
+  "00980A": {
+    "name": "野村臺灣智慧優選主動式ETF",
+    "latest_date": "2026/04/24",
+    "previous_date": "2026/04/23",
+    "price": "21.52",
+    "change_value": "+0.47",
+    "change_percent": "+2.23%",
+    "daily_changes": []
+  },
   "00982A": {
     "name": "群益台灣精選強棒主動式ETF基金",
     "latest_date": "2026/04/24",
@@ -246,5 +246,41 @@
         "current_weight": 4.95
       }
     ]
+  },
+  "00994A": {
+    "name": "第一金台股優選主動ETF",
+    "latest_date": "2026/04/24",
+    "previous_date": null,
+    "price": "16.50",
+    "change_value": "+0.58",
+    "change_percent": "+3.64%",
+    "daily_changes": []
+  },
+  "00995A": {
+    "name": "中信台灣卓越主動ETF",
+    "latest_date": "2026/04/24",
+    "previous_date": null,
+    "price": "15.78",
+    "change_value": "+0.56",
+    "change_percent": "+3.68%",
+    "daily_changes": []
+  },
+  "00987A": {
+    "name": "台新優勢成長主動ETF",
+    "latest_date": "2026/04/24",
+    "previous_date": null,
+    "price": "15.94",
+    "change_value": "+0.40",
+    "change_percent": "+2.57%",
+    "daily_changes": []
+  },
+  "00991A": {
+    "name": "復華未來50主動ETF",
+    "latest_date": "2026/04/24",
+    "previous_date": null,
+    "price": "16.25",
+    "change_value": "+0.76",
+    "change_percent": "+4.91%",
+    "daily_changes": []
   }
 }
