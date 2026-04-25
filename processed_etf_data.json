@@ -116,17 +116,6 @@
         "current_weight": 1.5
       },
       {
-        "code": "3583",
-        "name": "辛耘",
-        "type": "刪除",
-        "count_change": -57,
-        "weight_change": -0.03,
-        "prev_count": 57,
-        "prev_weight": 0.03,
-        "current_count": 0,
-        "current_weight": 0.0
-      },
-      {
         "code": "3017",
         "name": "奇鋐",
         "type": "增持",
@@ -136,6 +125,17 @@
         "prev_weight": 5.16,
         "current_count": 3902,
         "current_weight": 5.42
+      },
+      {
+        "code": "3583",
+        "name": "辛耘",
+        "type": "刪除",
+        "count_change": -57,
+        "weight_change": -0.03,
+        "prev_count": 57,
+        "prev_weight": 0.03,
+        "current_count": 0,
+        "current_weight": 0.0
       },
       {
         "code": "2330",
