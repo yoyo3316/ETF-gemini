@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-25 18:59:34",
+  "updated_at": "2026-04-27 19:14:29",
   "source": "https://www.moneydj.com/etf/x/rank/rank0013-1.xdjhtm?erank=click",
-  "total": 23,
-  "ranked": 15,
-  "no_data": 8,
+  "total": 20,
+  "ranked": 13,
+  "no_data": 7,
   "ranking": [
     {
       "code": "00987A",
@@ -174,20 +174,6 @@
       "rank": 12
     },
     {
-      "code": "00986A",
-      "name": "主動台新龍頭成長",
-      "date": "04/24",
-      "currency": "台幣",
-      "return_1d": 0.52,
-      "return_1w": 2.74,
-      "return_ytd": 17.0,
-      "return_1m": 13.55,
-      "return_3m": 14.42,
-      "return_6m": 25.37,
-      "return_1y": null,
-      "rank": 13
-    },
-    {
       "code": "00989A",
       "name": "主動摩根美國科技",
       "date": "04/24",
@@ -199,21 +185,7 @@
       "return_3m": 2.43,
       "return_6m": 2.97,
       "return_1y": null,
-      "rank": 14
-    },
-    {
-      "code": "00983A",
-      "name": "主動中信ARK創新",
-      "date": "04/24",
-      "currency": "台幣",
-      "return_1d": -1.37,
-      "return_1w": 0.09,
-      "return_ytd": -3.37,
-      "return_1m": 7.29,
-      "return_3m": -6.59,
-      "return_6m": -9.68,
-      "return_1y": null,
-      "rank": 15
+      "rank": 13
     },
     {
       "code": "00996A",
@@ -252,20 +224,6 @@
       "return_1w": 2.06,
       "return_ytd": null,
       "return_1m": 21.04,
-      "return_3m": null,
-      "return_6m": null,
-      "return_1y": null,
-      "rank": null
-    },
-    {
-      "code": "00998A",
-      "name": "主動復華金融股息",
-      "date": "04/24",
-      "currency": "台幣",
-      "return_1d": -1.78,
-      "return_1w": -2.82,
-      "return_ytd": null,
-      "return_1m": null,
       "return_3m": null,
       "return_6m": null,
       "return_1y": null,
