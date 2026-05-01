@@ -454,17 +454,6 @@
         "current_weight": 3.56
       },
       {
-        "code": "3661",
-        "name": "世芯-KY",
-        "type": "增持",
-        "count_change": 3,
-        "weight_change": 0.29,
-        "prev_count": 0,
-        "prev_weight": 0.0,
-        "current_count": 3,
-        "current_weight": 0.29
-      },
-      {
         "code": "6510",
         "name": "精測",
         "type": "減持",
@@ -474,6 +463,17 @@
         "prev_weight": 0.87,
         "current_count": 7,
         "current_weight": 0.57
+      },
+      {
+        "code": "3661",
+        "name": "世芯-KY",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": 0.29,
+        "prev_count": 0,
+        "prev_weight": 0.0,
+        "current_count": 3,
+        "current_weight": 0.29
       },
       {
         "code": "2345",
