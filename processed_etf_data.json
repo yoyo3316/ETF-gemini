@@ -8,6 +8,17 @@
     "change_percent": "+0.55%",
     "daily_changes": [
       {
+        "code": "6278",
+        "name": "台表科",
+        "type": "新增",
+        "count_change": 2500,
+        "weight_change": 0.21,
+        "prev_count": 0,
+        "prev_weight": 0.0,
+        "current_count": 2500,
+        "current_weight": 0.21
+      },
+      {
         "code": "5439",
         "name": "高技",
         "type": "增持",

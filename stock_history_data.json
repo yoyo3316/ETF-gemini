@@ -2841,6 +2841,127 @@
       }
     }
   },
+  "2439": {
+    "code": "2439",
+    "name": "美律",
+    "etf_holdings": {
+      "00981A": {
+        "etf_name": "統一台股增長",
+        "current_count": 18,
+        "current_weight": 0,
+        "max_count": 18,
+        "max_count_date": "2026/05/06",
+        "min_count": 6,
+        "min_count_date": "2026/03/23",
+        "history": [
+          {
+            "date": "2026/03/23",
+            "count": 6,
+            "weight": 0,
+            "count_change": 0,
+            "weight_change": 0.0,
+            "status": "首次出現"
+          },
+          {
+            "date": "2026/03/30",
+            "count": 7,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/03/31",
+            "count": 8,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/13",
+            "count": 9,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/14",
+            "count": 10,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/15",
+            "count": 11,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/17",
+            "count": 12,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/20",
+            "count": 13,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/21",
+            "count": 14,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/22",
+            "count": 15,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/04/27",
+            "count": 16,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/05/05",
+            "count": 17,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          },
+          {
+            "date": "2026/05/06",
+            "count": 18,
+            "weight": 0,
+            "count_change": 1,
+            "weight_change": 0,
+            "status": "增持"
+          }
+        ]
+      }
+    }
+  },
   "6472": {
     "code": "6472",
     "name": "保瑞",
@@ -14146,6 +14267,31 @@
       }
     }
   },
+  "6278": {
+    "code": "6278",
+    "name": "台表科",
+    "etf_holdings": {
+      "00981A": {
+        "etf_name": "統一台股增長",
+        "current_count": 2500,
+        "current_weight": 0.21,
+        "max_count": 2500,
+        "max_count_date": "2026/05/14",
+        "min_count": 2500,
+        "min_count_date": "2026/05/14",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "count": 2500,
+            "weight": 0.21,
+            "count_change": 0,
+            "weight_change": 0.0,
+            "status": "首次出現"
+          }
+        ]
+      }
+    }
+  },
   "4958": {
     "code": "4958",
     "name": "臻鼎-KY",
@@ -21799,6 +21945,11 @@
         ]
       }
     }
+  },
+  "8069": {
+    "code": "8069",
+    "name": "",
+    "etf_holdings": {}
   },
   "6757": {
     "code": "6757",
@@ -45162,6 +45313,11 @@
         ]
       }
     }
+  },
+  "3042": {
+    "code": "3042",
+    "name": "",
+    "etf_holdings": {}
   },
   "4770": {
     "code": "4770",
