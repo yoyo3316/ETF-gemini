@@ -247,17 +247,6 @@
         "current_weight": 3.43
       },
       {
-        "code": "3017",
-        "name": "奇鋐",
-        "type": "增持",
-        "count_change": 12,
-        "weight_change": 0.0,
-        "prev_count": 344,
-        "prev_weight": 1.84,
-        "current_count": 356,
-        "current_weight": 1.84
-      },
-      {
         "code": "2360",
         "name": "致茂",
         "type": "增持",
@@ -267,6 +256,17 @@
         "prev_weight": 4.01,
         "current_count": 818,
         "current_weight": 3.74
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "type": "增持",
+        "count_change": 12,
+        "weight_change": 0.0,
+        "prev_count": 344,
+        "prev_weight": 1.84,
+        "current_count": 356,
+        "current_weight": 1.84
       },
       {
         "code": "2345",
@@ -346,6 +346,17 @@
         "current_weight": 0.27
       },
       {
+        "code": "6274",
+        "name": "台燿",
+        "type": "增持",
+        "count_change": 3,
+        "weight_change": -0.01,
+        "prev_count": 303,
+        "prev_weight": 0.91,
+        "current_count": 306,
+        "current_weight": 0.9
+      },
+      {
         "code": "5289",
         "name": "宜鼎",
         "type": "增持",
@@ -366,17 +377,6 @@
         "prev_weight": 0.49,
         "current_count": 178,
         "current_weight": 0.52
-      },
-      {
-        "code": "6274",
-        "name": "台燿",
-        "type": "增持",
-        "count_change": 3,
-        "weight_change": -0.01,
-        "prev_count": 303,
-        "prev_weight": 0.91,
-        "current_count": 306,
-        "current_weight": 0.9
       },
       {
         "code": "3533",
@@ -520,17 +520,6 @@
         "current_weight": 3.52
       },
       {
-        "code": "3653",
-        "name": "健策",
-        "type": "減持",
-        "count_change": -12,
-        "weight_change": -0.77,
-        "prev_count": 28,
-        "prev_weight": 1.76,
-        "current_count": 16,
-        "current_weight": 0.99
-      },
-      {
         "code": "6805",
         "name": "富世達",
         "type": "刪除",
@@ -542,15 +531,15 @@
         "current_weight": 0.0
       },
       {
-        "code": "2360",
-        "name": "致茂",
+        "code": "3653",
+        "name": "健策",
         "type": "減持",
-        "count_change": -9,
-        "weight_change": -0.52,
-        "prev_count": 92,
-        "prev_weight": 3.86,
-        "current_count": 83,
-        "current_weight": 3.34
+        "count_change": -12,
+        "weight_change": -0.77,
+        "prev_count": 28,
+        "prev_weight": 1.76,
+        "current_count": 16,
+        "current_weight": 0.99
       },
       {
         "code": "8299",
@@ -562,6 +551,17 @@
         "prev_weight": 1.87,
         "current_count": 50,
         "current_weight": 2.56
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "type": "減持",
+        "count_change": -9,
+        "weight_change": -0.52,
+        "prev_count": 92,
+        "prev_weight": 3.86,
+        "current_count": 83,
+        "current_weight": 3.34
       },
       {
         "code": "3443",
@@ -770,5 +770,14 @@
         "current_weight": 1.51
       }
     ]
+  },
+  "00403A": {
+    "name": "統一升級50主動ETF",
+    "latest_date": "2026/05/14",
+    "previous_date": null,
+    "price": "10.24",
+    "change_value": "+0.06",
+    "change_percent": "+0.59%",
+    "daily_changes": []
   }
 }
