@@ -717,17 +717,6 @@
     "change_percent": "-2.77%",
     "daily_changes": [
       {
-        "code": "2327",
-        "name": "國巨",
-        "type": "增持",
-        "count_change": 25,
-        "weight_change": 0.28,
-        "prev_count": 257,
-        "prev_weight": 2.42,
-        "current_count": 282,
-        "current_weight": 2.7
-      },
-      {
         "code": "3711",
         "name": "日月光投資控股",
         "type": "增持",
@@ -737,6 +726,17 @@
         "prev_weight": 1.91,
         "current_count": 225,
         "current_weight": 2.05
+      },
+      {
+        "code": "2327",
+        "name": "國巨",
+        "type": "增持",
+        "count_change": 25,
+        "weight_change": 0.28,
+        "prev_count": 257,
+        "prev_weight": 2.42,
+        "current_count": 282,
+        "current_weight": 2.7
       },
       {
         "code": "3661",
@@ -967,17 +967,6 @@
         "current_weight": 0.22
       },
       {
-        "code": "2327",
-        "name": "國巨",
-        "type": "增持",
-        "count_change": 300,
-        "weight_change": 0.05,
-        "prev_count": 7100,
-        "prev_weight": 2.08,
-        "current_count": 7400,
-        "current_weight": 2.13
-      },
-      {
         "code": "2368",
         "name": "金像電",
         "type": "增持",
@@ -987,6 +976,17 @@
         "prev_weight": 2.83,
         "current_count": 4160,
         "current_weight": 3.1
+      },
+      {
+        "code": "2327",
+        "name": "國巨",
+        "type": "增持",
+        "count_change": 300,
+        "weight_change": 0.05,
+        "prev_count": 7100,
+        "prev_weight": 2.08,
+        "current_count": 7400,
+        "current_weight": 2.13
       },
       {
         "code": "3017",
