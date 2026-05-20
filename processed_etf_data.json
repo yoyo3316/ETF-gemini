@@ -895,17 +895,6 @@
     "change_percent": "-0.49%",
     "daily_changes": [
       {
-        "code": "3036",
-        "name": "文曄",
-        "type": "增持",
-        "count_change": 80,
-        "weight_change": 0.46,
-        "prev_count": 60,
-        "prev_weight": 0.31,
-        "current_count": 140,
-        "current_weight": 0.77
-      },
-      {
         "code": "6147",
         "name": "頎邦",
         "type": "新增",
@@ -917,15 +906,15 @@
         "current_weight": 0.34
       },
       {
-        "code": "4958",
-        "name": "臻鼎-KY",
+        "code": "3036",
+        "name": "文曄",
         "type": "增持",
-        "count_change": 60,
-        "weight_change": 0.7,
-        "prev_count": 240,
-        "prev_weight": 1.9,
-        "current_count": 300,
-        "current_weight": 2.6
+        "count_change": 80,
+        "weight_change": 0.46,
+        "prev_count": 60,
+        "prev_weight": 0.31,
+        "current_count": 140,
+        "current_weight": 0.77
       },
       {
         "code": "2455",
@@ -937,6 +926,17 @@
         "prev_weight": 0.0,
         "current_count": 60,
         "current_weight": 0.47
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "type": "增持",
+        "count_change": 60,
+        "weight_change": 0.7,
+        "prev_count": 240,
+        "prev_weight": 1.9,
+        "current_count": 300,
+        "current_weight": 2.6
       },
       {
         "code": "2449",
@@ -1121,17 +1121,6 @@
         "current_weight": 0.03
       },
       {
-        "code": "4958",
-        "name": "臻鼎-KY",
-        "type": "增持",
-        "count_change": 350,
-        "weight_change": 0.14,
-        "prev_count": 4500,
-        "prev_weight": 1.07,
-        "current_count": 4850,
-        "current_weight": 1.21
-      },
-      {
         "code": "2327",
         "name": "國巨",
         "type": "增持",
@@ -1141,6 +1130,17 @@
         "prev_weight": 2.13,
         "current_count": 7750,
         "current_weight": 2.3
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "type": "增持",
+        "count_change": 350,
+        "weight_change": 0.14,
+        "prev_count": 4500,
+        "prev_weight": 1.07,
+        "current_count": 4850,
+        "current_weight": 1.21
       },
       {
         "code": "3037",
@@ -1253,17 +1253,6 @@
         "current_weight": 0.5
       },
       {
-        "code": "6669",
-        "name": "緯穎",
-        "type": "增持",
-        "count_change": 30,
-        "weight_change": 0.06,
-        "prev_count": 650,
-        "prev_weight": 1.84,
-        "current_count": 680,
-        "current_weight": 1.9
-      },
-      {
         "code": "8996",
         "name": "高力",
         "type": "增持",
@@ -1273,6 +1262,17 @@
         "prev_weight": 0.59,
         "current_count": 1000,
         "current_weight": 0.57
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "type": "增持",
+        "count_change": 30,
+        "weight_change": 0.06,
+        "prev_count": 650,
+        "prev_weight": 1.84,
+        "current_count": 680,
+        "current_weight": 1.9
       },
       {
         "code": "3529",
