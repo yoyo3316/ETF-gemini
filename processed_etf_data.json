@@ -395,17 +395,6 @@
         "current_weight": 5.77
       },
       {
-        "code": "3037",
-        "name": "欣興電子",
-        "type": "增持",
-        "count_change": 150,
-        "weight_change": -0.03,
-        "prev_count": 3200,
-        "prev_weight": 4.64,
-        "current_count": 3350,
-        "current_weight": 4.61
-      },
-      {
         "code": "6274",
         "name": "台燿科技",
         "type": "增持",
@@ -415,6 +404,17 @@
         "prev_weight": 3.75,
         "current_count": 1600,
         "current_weight": 4.18
+      },
+      {
+        "code": "3037",
+        "name": "欣興電子",
+        "type": "增持",
+        "count_change": 150,
+        "weight_change": -0.03,
+        "prev_count": 3200,
+        "prev_weight": 4.64,
+        "current_count": 3350,
+        "current_weight": 4.61
       },
       {
         "code": "6515",
