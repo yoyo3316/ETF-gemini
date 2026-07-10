@@ -264,17 +264,6 @@
         "current_weight": -0.03
       },
       {
-        "code": "2408",
-        "name": "南亞科技",
-        "type": "增持",
-        "count_change": 500,
-        "weight_change": 0.66,
-        "prev_count": 9000,
-        "prev_weight": 4.83,
-        "current_count": 9500,
-        "current_weight": 5.49
-      },
-      {
         "code": "2327",
         "name": "國巨股份",
         "type": "增持",
@@ -284,6 +273,17 @@
         "prev_weight": 7.73,
         "current_count": 6900,
         "current_weight": 8.24
+      },
+      {
+        "code": "2408",
+        "name": "南亞科技",
+        "type": "增持",
+        "count_change": 500,
+        "weight_change": 0.66,
+        "prev_count": 9000,
+        "prev_weight": 4.83,
+        "current_count": 9500,
+        "current_weight": 5.49
       },
       {
         "code": "2492",
