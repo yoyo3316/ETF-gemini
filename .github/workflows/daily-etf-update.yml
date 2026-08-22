@@ -1,0 +1,60 @@
+name: 每日 ETF 資料備援更新
+
+on:
+  schedule:
+    # 台灣時間週一至週五 20:15（UTC 12:15）；GitHub 排程可能有數分鐘延遲。
+    - cron: '15 12 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DATA_DIR: ${{ github.workspace }}
+      GIT_ENABLED: 'false'
+      FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: 取出目前歷史與程式
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安裝 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安裝 Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: 安裝套件
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: 驗證資料契約測試
+        run: python -m unittest discover -s tests -v
+
+      - name: 抓取、整理與驗證 ETF 資料
+        run: python etf_tracker_merged.py
+
+      - name: 提交更新資料
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f *_holdings.json processed_etf_data.json stock_history_data.json homepage_index.json data_manifest.json active_etf_ranking.json stock_price_cache.json
+          if git diff --cached --quiet; then
+            echo "資料沒有變動，不建立提交。"
+          else
+            git commit -m "Auto update ETF data"
+            git push
+          fi
