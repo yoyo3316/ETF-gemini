@@ -72186,7 +72186,7 @@
     },
     {
         "data_date": "2026/08/21",
-        "is_latest": true,
+        "is_latest": false,
         "price_info": {
             "price": "21.39",
             "change_value": "-0.41",
