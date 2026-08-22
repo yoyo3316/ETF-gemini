@@ -37,6 +37,10 @@ jobs:
 
       - name: 安裝 Chrome
         uses: browser-actions/setup-chrome@v1
+        with:
+          # undetected-chromedriver 目前可用的驅動版本為 151，需與瀏覽器主版號一致。
+          chrome-version: '151'
+          install-dependencies: true
 
       - name: 安裝套件
         run: pip install --disable-pip-version-check -r requirements.txt
