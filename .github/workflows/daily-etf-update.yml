@@ -2,8 +2,8 @@ name: 每日 ETF 資料備援更新
 
 on:
   schedule:
-    # 台灣時間週一至週五 20:15（UTC 12:15）；GitHub 排程可能有數分鐘延遲。
-    - cron: '15 12 * * 1-5'
+    # 台灣時間週一至週五 19:25（UTC 11:25）；GitHub 排程可能有數分鐘延遲。
+    - cron: '25 11 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -49,7 +49,18 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: 抓取、整理與驗證 ETF 資料
-        run: python etf_tracker_merged.py
+        run: |
+          for attempt in 1 2 3; do
+            echo "第 ${attempt}/3 次嘗試更新資料"
+            if python etf_tracker_merged.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "更新失敗，60 秒後自動重試。"
+              sleep 60
+            fi
+          done
+          exit 1
 
       - name: 提交更新資料
         run: |
