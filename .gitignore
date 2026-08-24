@@ -18,3 +18,6 @@ logs/
 
 # 其他
 *.bak
+
+# OneDrive 同步的本機 Telegram 憑證；絕不上傳 GitHub
+telegram.local.json

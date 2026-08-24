@@ -56,8 +56,23 @@ ETF_CODE_NAME_MAP = {
 DATA_DIR = os.environ.get("DATA_DIR", os.path.dirname(os.path.abspath(__file__)))
 GIT_ENABLED = os.environ.get("GIT_ENABLED", "true").lower() == "true"
 GIT_REMOTE_URL = os.environ.get("GIT_REMOTE_URL", "https://github.com/yoyo3316/ETF-gemini.git")
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+
+def load_telegram_credentials():
+    """優先使用環境變數，否則讀取 OneDrive 同步但不進 Git 的本機設定檔。"""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+    if token and chat_id:
+        return token, chat_id
+
+    config_path = os.path.join(DATA_DIR, "telegram.local.json")
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = json.load(f)
+        return str(config.get("bot_token", "")).strip(), str(config.get("chat_id", "")).strip()
+    except (OSError, ValueError, TypeError):
+        return "", ""
+
+TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID = load_telegram_credentials()
 FINMIND_TOKEN = os.environ.get("FINMIND_TOKEN", "")
 
 WEIGHT_MAJOR_CHANGE_THRESHOLD = 0.25
@@ -803,41 +818,61 @@ def step_fetch_price_cache():
 def git_commit_and_push(data_dir):
     if not GIT_ENABLED:
         logging.info("Git 已停用"); return True
-    orig = os.getcwd()
-    try:
-        os.chdir(data_dir)
-        if subprocess.run(['git','rev-parse','--git-dir'],
-                          capture_output=True, timeout=10).returncode != 0:
-            logging.error("不是 Git 倉庫"); os.chdir(orig); return False
-        if GIT_REMOTE_URL:
-            subprocess.run(['git','remote','set-url','origin',GIT_REMOTE_URL],
-                           capture_output=True, timeout=10)
-        files = ['processed_etf_data.json','stock_history_data.json','homepage_index.json',
-                 'active_etf_ranking.json','stock_price_cache.json','data_manifest.json']
-        added = False
-        for fn in files:
-            if os.path.exists(os.path.join(data_dir, fn)):
-                subprocess.run(['git','add','-f',fn], check=True, timeout=10)
-                logging.info(f"✓ git add {fn}"); added = True
-            else:
-                logging.warning(f"找不到 {fn}")
-        if not added:
-            logging.warning("沒有檔案可上傳"); os.chdir(orig); return False
-        msg = f"Auto update ETF data - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        status = subprocess.run(['git','status','--porcelain'],
-                                capture_output=True, text=True, timeout=10)
-        if status.stdout.strip():
-            subprocess.run(['git','commit','-m',msg], capture_output=True, check=True, timeout=30)
-        else:
-            subprocess.run(['git','commit','--allow-empty','-m',msg],
-                           capture_output=True, check=True, timeout=30)
-        result = subprocess.run(['git','push'], capture_output=True, text=True, timeout=60)
-        if result.returncode == 0:
-            logging.info("✅ 推送成功！"); os.chdir(orig); return True
-        else:
-            logging.error(f"git push 失敗: {result.stderr}"); os.chdir(orig); return False
-    except Exception as e:
-        logging.error(f"Git 錯誤: {e}"); os.chdir(orig); return False
+    # 不直接使用 OneDrive 同步資料夾內的 .git：不同電腦同時執行時，
+    # OneDrive 可能同步到不同的 Git HEAD，造成 non-fast-forward 失敗。
+    files = ['processed_etf_data.json','stock_history_data.json','homepage_index.json',
+             'active_etf_ranking.json','stock_price_cache.json','data_manifest.json']
+    files.extend(os.path.basename(path) for path in glob.glob(os.path.join(data_dir, '*_holdings.json')))
+    files = [fn for fn in dict.fromkeys(files) if os.path.isfile(os.path.join(data_dir, fn))]
+    if not files:
+        logging.warning("沒有檔案可上傳"); return False
+
+    # 每次從 GitHub 最新 main 建立乾淨暫存庫；推送衝突時重新 clone 後再試。
+    for attempt in range(1, 4):
+        try:
+            with tempfile.TemporaryDirectory(prefix='etf-git-publish-') as temp_dir:
+                repo_dir = os.path.join(temp_dir, 'repo')
+                clone = subprocess.run(['git','clone','--depth','1',GIT_REMOTE_URL,repo_dir],
+                                       capture_output=True, text=True, timeout=90)
+                if clone.returncode != 0:
+                    logging.error(f"git clone 失敗: {clone.stderr.strip()}")
+                    return False
+
+                for fn in files:
+                    shutil.copy2(os.path.join(data_dir, fn), os.path.join(repo_dir, fn))
+                    logging.info(f"✓ 準備上傳 {fn}")
+
+                subprocess.run(['git','config','user.name','ETF local updater'], cwd=repo_dir,
+                               capture_output=True, check=True, timeout=10)
+                subprocess.run(['git','config','user.email','etf-local-updater@users.noreply.github.com'], cwd=repo_dir,
+                               capture_output=True, check=True, timeout=10)
+                subprocess.run(['git','add','-f','--',*files], cwd=repo_dir,
+                               capture_output=True, check=True, timeout=30)
+                staged = subprocess.run(['git','diff','--cached','--quiet'], cwd=repo_dir, timeout=10)
+                if staged.returncode == 0:
+                    logging.info("GitHub 已是相同資料，不建立提交"); return True
+
+                msg = f"Auto update ETF data - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+                subprocess.run(['git','commit','-m',msg], cwd=repo_dir,
+                               capture_output=True, check=True, timeout=30)
+                result = subprocess.run(['git','push','origin','HEAD:main'], cwd=repo_dir,
+                                        capture_output=True, text=True, timeout=90)
+                if result.returncode == 0:
+                    logging.info("✅ 推送成功！"); return True
+
+                details = (result.stderr or result.stdout).strip()
+                retryable = any(text in details.lower() for text in
+                                ('non-fast-forward','fetch first','failed to push some refs','rejected'))
+                if not retryable or attempt == 3:
+                    logging.error(f"git push 失敗: {details}"); return False
+                logging.warning(f"GitHub 有新提交，第 {attempt}/3 次推送衝突；5 秒後重新同步並重試")
+                time.sleep(5)
+        except Exception as e:
+            logging.error(f"Git 錯誤（第 {attempt}/3 次）: {e}")
+            if attempt == 3:
+                return False
+            time.sleep(5)
+    return False
 
 
 # ── 主程式 ────────────────────────────────────────────────────
@@ -904,6 +939,7 @@ def main():
         print("\n✅ 所有任務完成！")
     else:
         print("\n⚠️ Git 上傳失敗")
+        send_telegram_message("⚠️ ETF 資料已處理完成，但 GitHub 上傳失敗；請查看本機執行紀錄。")
         sys.exit(1)
 
 if __name__ == "__main__":
