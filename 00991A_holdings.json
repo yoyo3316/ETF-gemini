@@ -22807,5 +22807,276 @@
                 "weight": -0.52
             }
         }
+    },
+    {
+        "data_date": "2026/08/26",
+        "is_latest": true,
+        "price_info": {
+            "price": "18.02",
+            "change_value": "+0.39",
+            "change_percent": "+2.21%"
+        },
+        "holdings": {
+            "DA_NTD": {
+                "name": "AFTER DEDUCTING SECURITIES PURCHASES AMOUNT",
+                "count": 1368697222,
+                "weight": 1.59
+            },
+            "2408": {
+                "name": "南亞科技",
+                "count": 14000000,
+                "weight": 8.42
+            },
+            "2327": {
+                "name": "國巨股份",
+                "count": 7700000,
+                "weight": 4.81
+            },
+            "3037": {
+                "name": "欣興電子",
+                "count": 5000000,
+                "weight": 6.75
+            },
+            "2330": {
+                "name": "台灣積體",
+                "count": 4200000,
+                "weight": 11.8
+            },
+            "3189": {
+                "name": "景碩科技",
+                "count": 4100000,
+                "weight": 4.2
+            },
+            "8046": {
+                "name": "南亞電路",
+                "count": 3250000,
+                "weight": 4.46
+            },
+            "3026": {
+                "name": "禾伸堂企",
+                "count": 2700000,
+                "weight": 1.93
+            },
+            "6274": {
+                "name": "台燿科技",
+                "count": 2400000,
+                "weight": 4.27
+            },
+            "2345": {
+                "name": "智邦科技",
+                "count": 1700000,
+                "weight": 4.07
+            },
+            "2383": {
+                "name": "台光電子",
+                "count": 1400000,
+                "weight": 9.6
+            },
+            "3017": {
+                "name": "奇鋐科技",
+                "count": 1250000,
+                "weight": 4.59
+            },
+            "2454": {
+                "name": "聯發科技",
+                "count": 1000000,
+                "weight": 4.59
+            },
+            "8299": {
+                "name": "群聯電子",
+                "count": 880000,
+                "weight": 2.18
+            },
+            "3081": {
+                "name": "聯亞光電",
+                "count": 700000,
+                "weight": 2.65
+            },
+            "6669": {
+                "name": "緯穎科技",
+                "count": 600000,
+                "weight": 4.74
+            },
+            "6223": {
+                "name": "旺矽科技",
+                "count": 560000,
+                "weight": 3.28
+            },
+            "2059": {
+                "name": "川湖科技",
+                "count": 510000,
+                "weight": 8.61
+            },
+            "7769": {
+                "name": "鴻勁精密",
+                "count": 360000,
+                "weight": 2.65
+            },
+            "3653": {
+                "name": "健策精密",
+                "count": 340000,
+                "weight": 2.27
+            },
+            "5274": {
+                "name": "信驊科技",
+                "count": 120500,
+                "weight": 2.2
+            },
+            "2885": {
+                "name": "元大金融",
+                "count": 9360,
+                "weight": 0
+            },
+            "2880": {
+                "name": "華南金融",
+                "count": 9090,
+                "weight": 0
+            },
+            "3711": {
+                "name": "日月光投",
+                "count": 9000,
+                "weight": 0.01
+            },
+            "3231": {
+                "name": "緯創資通",
+                "count": 9000,
+                "weight": 0
+            },
+            "2382": {
+                "name": "廣達電腦",
+                "count": 9000,
+                "weight": 0
+            },
+            "2317": {
+                "name": "鴻海精密",
+                "count": 9000,
+                "weight": 0
+            },
+            "2603": {
+                "name": "長榮海運",
+                "count": 9000,
+                "weight": 0
+            },
+            "2881": {
+                "name": "富邦金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2882": {
+                "name": "國泰金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2883": {
+                "name": "凱基金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2884": {
+                "name": "玉山金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2886": {
+                "name": "兆豐金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2887": {
+                "name": "台新新光",
+                "count": 9000,
+                "weight": 0
+            },
+            "2890": {
+                "name": "永豐金融",
+                "count": 9000,
+                "weight": 0
+            },
+            "2891": {
+                "name": "中國信託",
+                "count": 9000,
+                "weight": 0
+            },
+            "5347": {
+                "name": "世界先進",
+                "count": 9000,
+                "weight": 0
+            },
+            "2449": {
+                "name": "京元電子",
+                "count": 1450,
+                "weight": 0
+            },
+            "2313": {
+                "name": "華通電腦",
+                "count": 1253,
+                "weight": 0
+            },
+            "3008": {
+                "name": "大立光電",
+                "count": 1000,
+                "weight": 0.01
+            },
+            "3044": {
+                "name": "健鼎科技",
+                "count": 1000,
+                "weight": 0
+            },
+            "3665": {
+                "name": "貿聯-KY",
+                "count": 1000,
+                "weight": 0
+            },
+            "3036": {
+                "name": "文曄科技",
+                "count": 1000,
+                "weight": 0
+            },
+            "2412": {
+                "name": "中華電信",
+                "count": 1000,
+                "weight": 0
+            },
+            "1216": {
+                "name": "統一企業",
+                "count": 1000,
+                "weight": 0
+            },
+            "2404": {
+                "name": "漢唐集成",
+                "count": 1000,
+                "weight": 0
+            },
+            "2357": {
+                "name": "華碩電腦",
+                "count": 1000,
+                "weight": 0
+            },
+            "2360": {
+                "name": "致茂電子",
+                "count": 1000,
+                "weight": 0
+            },
+            "2379": {
+                "name": "瑞昱半導",
+                "count": 1000,
+                "weight": 0
+            },
+            "2308": {
+                "name": "台達電子",
+                "count": 1000,
+                "weight": 0
+            },
+            "2912": {
+                "name": "統一超商",
+                "count": 1000,
+                "weight": 0
+            },
+            "PFUR_NTD": {
+                "name": "PAYABLES FOR UNITS REDEEMED",
+                "count": -1216075533,
+                "weight": -1.41
+            }
+        }
     }
 ]
