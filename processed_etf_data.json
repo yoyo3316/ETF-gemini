@@ -181,15 +181,15 @@
         "current_weight": 0.28
       },
       {
-        "code": "3265",
-        "name": "台星科",
+        "code": "6214",
+        "name": "精誠",
         "type": "減持",
         "count_change": -30,
-        "weight_change": 0.01,
-        "prev_count": 3494,
-        "prev_weight": 1.19,
-        "current_count": 3464,
-        "current_weight": 1.2
+        "weight_change": 0.0,
+        "prev_count": 3524,
+        "prev_weight": 1.25,
+        "current_count": 3494,
+        "current_weight": 1.25
       },
       {
         "code": "6139",
@@ -203,15 +203,15 @@
         "current_weight": 5.88
       },
       {
-        "code": "6214",
-        "name": "精誠",
+        "code": "3265",
+        "name": "台星科",
         "type": "減持",
         "count_change": -30,
-        "weight_change": 0.0,
-        "prev_count": 3524,
-        "prev_weight": 1.25,
-        "current_count": 3494,
-        "current_weight": 1.25
+        "weight_change": 0.01,
+        "prev_count": 3494,
+        "prev_weight": 1.19,
+        "current_count": 3464,
+        "current_weight": 1.2
       },
       {
         "code": "3231",
@@ -313,17 +313,6 @@
         "current_weight": 0.32
       },
       {
-        "code": "3711",
-        "name": "日月光投控",
-        "type": "減持",
-        "count_change": -9,
-        "weight_change": 0.02,
-        "prev_count": 965,
-        "prev_weight": 1.12,
-        "current_count": 956,
-        "current_weight": 1.14
-      },
-      {
         "code": "6488",
         "name": "環球晶",
         "type": "減持",
@@ -333,6 +322,17 @@
         "prev_weight": 2.09,
         "current_count": 1114,
         "current_weight": 2.1
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "type": "減持",
+        "count_change": -9,
+        "weight_change": 0.02,
+        "prev_count": 965,
+        "prev_weight": 1.12,
+        "current_count": 956,
+        "current_weight": 1.14
       },
       {
         "code": "2395",
@@ -626,17 +626,6 @@
         "current_weight": 1.17
       },
       {
-        "code": "3081",
-        "name": "聯亞光電",
-        "type": "增持",
-        "count_change": 100,
-        "weight_change": 0.48,
-        "prev_count": 700,
-        "prev_weight": 2.65,
-        "current_count": 800,
-        "current_weight": 3.13
-      },
-      {
         "code": "6223",
         "name": "旺矽科技",
         "type": "減持",
@@ -646,6 +635,17 @@
         "prev_weight": 3.28,
         "current_count": 460,
         "current_weight": 2.72
+      },
+      {
+        "code": "3081",
+        "name": "聯亞光電",
+        "type": "增持",
+        "count_change": 100,
+        "weight_change": 0.48,
+        "prev_count": 700,
+        "prev_weight": 2.65,
+        "current_count": 800,
+        "current_weight": 3.13
       }
     ]
   },
