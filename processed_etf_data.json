@@ -581,17 +581,6 @@
         "current_weight": 1.75
       },
       {
-        "code": "2301",
-        "name": "光寶科",
-        "type": "減持",
-        "count_change": -47,
-        "weight_change": 0.02,
-        "prev_count": 987,
-        "prev_weight": 1.09,
-        "current_count": 940,
-        "current_weight": 1.11
-      },
-      {
         "code": "2330",
         "name": "台積電",
         "type": "減持",
@@ -601,6 +590,17 @@
         "prev_weight": 8.77,
         "current_count": 944,
         "current_weight": 8.5
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "type": "減持",
+        "count_change": -47,
+        "weight_change": 0.02,
+        "prev_count": 987,
+        "prev_weight": 1.09,
+        "current_count": 940,
+        "current_weight": 1.11
       },
       {
         "code": "1303",
@@ -680,17 +680,6 @@
         "current_weight": 5.34
       },
       {
-        "code": "3034",
-        "name": "聯詠",
-        "type": "減持",
-        "count_change": -17,
-        "weight_change": -0.03,
-        "prev_count": 361,
-        "prev_weight": 0.73,
-        "current_count": 344,
-        "current_weight": 0.7
-      },
-      {
         "code": "2345",
         "name": "智邦",
         "type": "減持",
@@ -700,6 +689,17 @@
         "prev_weight": 2.81,
         "current_count": 349,
         "current_weight": 2.76
+      },
+      {
+        "code": "3034",
+        "name": "聯詠",
+        "type": "減持",
+        "count_change": -17,
+        "weight_change": -0.03,
+        "prev_count": 361,
+        "prev_weight": 0.73,
+        "current_count": 344,
+        "current_weight": 0.7
       },
       {
         "code": "6805",
@@ -735,17 +735,6 @@
         "current_weight": 0.31
       },
       {
-        "code": "2383",
-        "name": "台光電",
-        "type": "減持",
-        "count_change": -13,
-        "weight_change": -0.2,
-        "prev_count": 269,
-        "prev_weight": 5.43,
-        "current_count": 256,
-        "current_weight": 5.23
-      },
-      {
         "code": "2360",
         "name": "致茂",
         "type": "減持",
@@ -755,6 +744,17 @@
         "prev_weight": 1.95,
         "current_count": 254,
         "current_weight": 1.9
+      },
+      {
+        "code": "2383",
+        "name": "台光電",
+        "type": "減持",
+        "count_change": -13,
+        "weight_change": -0.2,
+        "prev_count": 269,
+        "prev_weight": 5.43,
+        "current_count": 256,
+        "current_weight": 5.23
       },
       {
         "code": "8210",
@@ -856,6 +856,17 @@
         "current_weight": 2.45
       },
       {
+        "code": "5434",
+        "name": "崇越",
+        "type": "減持",
+        "count_change": -5,
+        "weight_change": -0.01,
+        "prev_count": 99,
+        "prev_weight": 0.19,
+        "current_count": 94,
+        "current_weight": 0.18
+      },
+      {
         "code": "3529",
         "name": "力旺",
         "type": "減持",
@@ -876,39 +887,6 @@
         "prev_weight": 2.03,
         "current_count": 93,
         "current_weight": 2
-      },
-      {
-        "code": "5434",
-        "name": "崇越",
-        "type": "減持",
-        "count_change": -5,
-        "weight_change": -0.01,
-        "prev_count": 99,
-        "prev_weight": 0.19,
-        "current_count": 94,
-        "current_weight": 0.18
-      },
-      {
-        "code": "2412",
-        "name": "中華電",
-        "type": "減持",
-        "count_change": -4,
-        "weight_change": 0.0,
-        "prev_count": 77,
-        "prev_weight": 0.04,
-        "current_count": 73,
-        "current_weight": 0.04
-      },
-      {
-        "code": "6531",
-        "name": "愛普",
-        "type": "減持",
-        "count_change": -4,
-        "weight_change": -0.02,
-        "prev_count": 92,
-        "prev_weight": 0.31,
-        "current_count": 88,
-        "current_weight": 0.29
       },
       {
         "code": "3491",
@@ -933,15 +911,26 @@
         "current_weight": 0.21
       },
       {
-        "code": "5289",
-        "name": "宜鼎",
+        "code": "2412",
+        "name": "中華電",
         "type": "減持",
-        "count_change": -3,
-        "weight_change": -0.01,
-        "prev_count": 66,
-        "prev_weight": 0.36,
-        "current_count": 63,
-        "current_weight": 0.35
+        "count_change": -4,
+        "weight_change": 0.0,
+        "prev_count": 77,
+        "prev_weight": 0.04,
+        "current_count": 73,
+        "current_weight": 0.04
+      },
+      {
+        "code": "6531",
+        "name": "愛普",
+        "type": "減持",
+        "count_change": -4,
+        "weight_change": -0.02,
+        "prev_count": 92,
+        "prev_weight": 0.31,
+        "current_count": 88,
+        "current_weight": 0.29
       },
       {
         "code": "2059",
@@ -955,15 +944,15 @@
         "current_weight": 3.56
       },
       {
-        "code": "5274",
-        "name": "信驊",
+        "code": "5289",
+        "name": "宜鼎",
         "type": "減持",
-        "count_change": -2,
-        "weight_change": -0.05,
-        "prev_count": 34,
-        "prev_weight": 1.96,
-        "current_count": 32,
-        "current_weight": 1.91
+        "count_change": -3,
+        "weight_change": -0.01,
+        "prev_count": 66,
+        "prev_weight": 0.36,
+        "current_count": 63,
+        "current_weight": 0.35
       },
       {
         "code": "8299",
@@ -975,6 +964,17 @@
         "prev_weight": 0.32,
         "current_count": 39,
         "current_weight": 0.31
+      },
+      {
+        "code": "5274",
+        "name": "信驊",
+        "type": "減持",
+        "count_change": -2,
+        "weight_change": -0.05,
+        "prev_count": 34,
+        "prev_weight": 1.96,
+        "current_count": 32,
+        "current_weight": 1.91
       },
       {
         "code": "6515",
