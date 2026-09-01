@@ -340,17 +340,6 @@
         "current_weight": 0.29
       },
       {
-        "code": "1303",
-        "name": "南亞",
-        "type": "增持",
-        "count_change": 1000,
-        "weight_change": 0.05,
-        "prev_count": 11000,
-        "prev_weight": 1.64,
-        "current_count": 12000,
-        "current_weight": 1.69
-      },
-      {
         "code": "3711",
         "name": "日月光投控",
         "type": "減持",
@@ -360,6 +349,17 @@
         "prev_weight": 2.51,
         "current_count": 6000,
         "current_weight": 2.2
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "type": "增持",
+        "count_change": 1000,
+        "weight_change": 0.05,
+        "prev_count": 11000,
+        "prev_weight": 1.64,
+        "current_count": 12000,
+        "current_weight": 1.69
       },
       {
         "code": "3450",
