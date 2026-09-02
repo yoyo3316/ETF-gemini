@@ -52,17 +52,6 @@
         "current_weight": 0.68
       },
       {
-        "code": "6187",
-        "name": "萬潤",
-        "type": "刪除",
-        "count_change": -7,
-        "weight_change": 0,
-        "prev_count": 8,
-        "prev_weight": 0,
-        "current_count": 1,
-        "current_weight": 0
-      },
-      {
         "code": "2383",
         "name": "台光電",
         "type": "減持",
@@ -72,6 +61,17 @@
         "prev_weight": 9.21,
         "current_count": 4750,
         "current_weight": 9.17
+      },
+      {
+        "code": "6187",
+        "name": "萬潤",
+        "type": "刪除",
+        "count_change": -7,
+        "weight_change": 0,
+        "prev_count": 8,
+        "prev_weight": 0,
+        "current_count": 1,
+        "current_weight": 0
       }
     ]
   },
@@ -270,17 +270,6 @@
         "current_weight": 0.28
       },
       {
-        "code": "2455",
-        "name": "全新",
-        "type": "減持",
-        "count_change": -9,
-        "weight_change": 0.08,
-        "prev_count": 1562,
-        "prev_weight": 1.55,
-        "current_count": 1553,
-        "current_weight": 1.63
-      },
-      {
         "code": "2476",
         "name": "鉅祥",
         "type": "減持",
@@ -290,6 +279,17 @@
         "prev_weight": 0.31,
         "current_count": 1285,
         "current_weight": 0.31
+      },
+      {
+        "code": "2455",
+        "name": "全新",
+        "type": "減持",
+        "count_change": -9,
+        "weight_change": 0.08,
+        "prev_count": 1562,
+        "prev_weight": 1.55,
+        "current_count": 1553,
+        "current_weight": 1.63
       },
       {
         "code": "6488",
@@ -336,17 +336,6 @@
         "current_weight": 1.96
       },
       {
-        "code": "2345",
-        "name": "智邦",
-        "type": "減持",
-        "count_change": -6,
-        "weight_change": -0.04,
-        "prev_count": 627,
-        "prev_weight": 2.61,
-        "current_count": 621,
-        "current_weight": 2.57
-      },
-      {
         "code": "2454",
         "name": "聯發科",
         "type": "減持",
@@ -356,6 +345,17 @@
         "prev_weight": 6.04,
         "current_count": 736,
         "current_weight": 6.08
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "type": "減持",
+        "count_change": -6,
+        "weight_change": -0.04,
+        "prev_count": 627,
+        "prev_weight": 2.61,
+        "current_count": 621,
+        "current_weight": 2.57
       },
       {
         "code": "5536",
@@ -391,15 +391,15 @@
         "current_weight": 1.17
       },
       {
-        "code": "6196",
-        "name": "帆宣",
+        "code": "3017",
+        "name": "奇鋐",
         "type": "減持",
         "count_change": -2,
-        "weight_change": 0.0,
-        "prev_count": 307,
-        "prev_weight": 0.29,
-        "current_count": 305,
-        "current_weight": 0.29
+        "weight_change": -0.03,
+        "prev_count": 376,
+        "prev_weight": 2.42,
+        "current_count": 374,
+        "current_weight": 2.39
       },
       {
         "code": "2383",
@@ -413,26 +413,15 @@
         "current_weight": 3.32
       },
       {
-        "code": "3017",
-        "name": "奇鋐",
+        "code": "6196",
+        "name": "帆宣",
         "type": "減持",
         "count_change": -2,
-        "weight_change": -0.03,
-        "prev_count": 376,
-        "prev_weight": 2.42,
-        "current_count": 374,
-        "current_weight": 2.39
-      },
-      {
-        "code": "2059",
-        "name": "川湖",
-        "type": "減持",
-        "count_change": -1,
-        "weight_change": -0.01,
-        "prev_count": 184,
-        "prev_weight": 4.91,
-        "current_count": 183,
-        "current_weight": 4.9
+        "weight_change": 0.0,
+        "prev_count": 307,
+        "prev_weight": 0.29,
+        "current_count": 305,
+        "current_weight": 0.29
       },
       {
         "code": "3231",
@@ -455,6 +444,17 @@
         "prev_weight": 3.65,
         "current_count": 254,
         "current_weight": 3.83
+      },
+      {
+        "code": "2059",
+        "name": "川湖",
+        "type": "減持",
+        "count_change": -1,
+        "weight_change": -0.01,
+        "prev_count": 184,
+        "prev_weight": 4.91,
+        "current_count": 183,
+        "current_weight": 4.9
       }
     ]
   },
@@ -858,17 +858,6 @@
         "current_weight": 0.41
       },
       {
-        "code": "8358",
-        "name": "金居",
-        "type": "減持",
-        "count_change": -200,
-        "weight_change": -0.06,
-        "prev_count": 600,
-        "prev_weight": 0.19,
-        "current_count": 400,
-        "current_weight": 0.13
-      },
-      {
         "code": "6805",
         "name": "富世達",
         "type": "減持",
@@ -878,6 +867,17 @@
         "prev_weight": 1.44,
         "current_count": 850,
         "current_weight": 1.12
+      },
+      {
+        "code": "8358",
+        "name": "金居",
+        "type": "減持",
+        "count_change": -200,
+        "weight_change": -0.06,
+        "prev_count": 600,
+        "prev_weight": 0.19,
+        "current_count": 400,
+        "current_weight": 0.13
       },
       {
         "code": "2308",
