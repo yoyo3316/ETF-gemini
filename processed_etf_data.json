@@ -201,17 +201,6 @@
         "current_weight": 4.82
       },
       {
-        "code": "8046",
-        "name": "南電",
-        "type": "減持",
-        "count_change": -40,
-        "weight_change": -1.21,
-        "prev_count": 174,
-        "prev_weight": 4.35,
-        "current_count": 134,
-        "current_weight": 3.14
-      },
-      {
         "code": "2801",
         "name": "彰銀",
         "type": "新增",
@@ -221,6 +210,17 @@
         "prev_weight": 0.0,
         "current_count": 40,
         "current_weight": 0.02
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "type": "減持",
+        "count_change": -40,
+        "weight_change": -1.21,
+        "prev_count": 174,
+        "prev_weight": 4.35,
+        "current_count": 134,
+        "current_weight": 3.14
       },
       {
         "code": "6274",
