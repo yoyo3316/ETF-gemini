@@ -69,7 +69,30 @@
     "price": "22.17",
     "change_value": "-0.20",
     "change_percent": "-0.89%",
-    "daily_changes": []
+    "daily_changes": [
+      {
+        "code": "3583",
+        "name": "辛耘",
+        "type": "減持",
+        "count_change": -70,
+        "weight_change": -0.12,
+        "prev_count": 960,
+        "prev_weight": 1.36,
+        "current_count": 890,
+        "current_weight": 1.24
+      },
+      {
+        "code": "6640",
+        "name": "均華",
+        "type": "增持",
+        "count_change": 25,
+        "weight_change": 0.05,
+        "prev_count": 116,
+        "prev_weight": 0.27,
+        "current_count": 141,
+        "current_weight": 0.32
+      }
+    ]
   },
   "00992A": {
     "name": "群益台灣科技創新主動式ETF",
