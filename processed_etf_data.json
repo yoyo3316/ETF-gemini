@@ -63,15 +63,15 @@
         "current_weight": 3.55
       },
       {
-        "code": "2449",
-        "name": "京元電子",
+        "code": "3037",
+        "name": "欣興",
         "type": "減持",
         "count_change": -200,
-        "weight_change": 0.03,
-        "prev_count": 13138,
-        "prev_weight": 1.36,
-        "current_count": 12938,
-        "current_weight": 1.39
+        "weight_change": 0.16,
+        "prev_count": 20300,
+        "prev_weight": 8.04,
+        "current_count": 20100,
+        "current_weight": 8.2
       },
       {
         "code": "3264",
@@ -85,15 +85,15 @@
         "current_weight": 0.42
       },
       {
-        "code": "3037",
-        "name": "欣興",
+        "code": "2449",
+        "name": "京元電子",
         "type": "減持",
         "count_change": -200,
-        "weight_change": 0.16,
-        "prev_count": 20300,
-        "prev_weight": 8.04,
-        "current_count": 20100,
-        "current_weight": 8.2
+        "weight_change": 0.03,
+        "prev_count": 13138,
+        "prev_weight": 1.36,
+        "current_count": 12938,
+        "current_weight": 1.39
       },
       {
         "code": "2345",
@@ -107,15 +107,15 @@
         "current_weight": 4.09
       },
       {
-        "code": "2454",
-        "name": "聯發科",
+        "code": "8046",
+        "name": "南電",
         "type": "減持",
         "count_change": -100,
-        "weight_change": 0.08,
-        "prev_count": 5186,
-        "prev_weight": 9.18,
-        "current_count": 5086,
-        "current_weight": 9.26
+        "weight_change": 0.09,
+        "prev_count": 9037,
+        "prev_weight": 3.73,
+        "current_count": 8937,
+        "current_weight": 3.82
       },
       {
         "code": "6805",
@@ -129,28 +129,6 @@
         "current_weight": 1.46
       },
       {
-        "code": "2308",
-        "name": "台達電",
-        "type": "減持",
-        "count_change": -100,
-        "weight_change": 0.01,
-        "prev_count": 7420,
-        "prev_weight": 4.81,
-        "current_count": 7320,
-        "current_weight": 4.82
-      },
-      {
-        "code": "8046",
-        "name": "南電",
-        "type": "減持",
-        "count_change": -100,
-        "weight_change": 0.09,
-        "prev_count": 9037,
-        "prev_weight": 3.73,
-        "current_count": 8937,
-        "current_weight": 3.82
-      },
-      {
         "code": "2383",
         "name": "台光電",
         "type": "減持",
@@ -162,15 +140,26 @@
         "current_weight": 8.09
       },
       {
-        "code": "6191",
-        "name": "精成科",
+        "code": "2454",
+        "name": "聯發科",
         "type": "減持",
-        "count_change": -67,
-        "weight_change": 0.0,
-        "prev_count": 3988,
-        "prev_weight": 0.11,
-        "current_count": 3921,
-        "current_weight": 0.11
+        "count_change": -100,
+        "weight_change": 0.08,
+        "prev_count": 5186,
+        "prev_weight": 9.18,
+        "current_count": 5086,
+        "current_weight": 9.26
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "type": "減持",
+        "count_change": -100,
+        "weight_change": 0.01,
+        "prev_count": 7420,
+        "prev_weight": 4.81,
+        "current_count": 7320,
+        "current_weight": 4.82
       },
       {
         "code": "3665",
@@ -184,15 +173,15 @@
         "current_weight": 3.12
       },
       {
-        "code": "4958",
-        "name": "臻鼎-KY",
+        "code": "6191",
+        "name": "精成科",
         "type": "減持",
-        "count_change": -60,
+        "count_change": -67,
         "weight_change": 0.0,
-        "prev_count": 3543,
-        "prev_weight": 0.57,
-        "current_count": 3483,
-        "current_weight": 0.57
+        "prev_count": 3988,
+        "prev_weight": 0.11,
+        "current_count": 3921,
+        "current_weight": 0.11
       },
       {
         "code": "3017",
@@ -204,6 +193,17 @@
         "prev_weight": 7.05,
         "current_count": 5889,
         "current_weight": 7.21
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "type": "減持",
+        "count_change": -60,
+        "weight_change": 0.0,
+        "prev_count": 3543,
+        "prev_weight": 0.57,
+        "current_count": 3483,
+        "current_weight": 0.57
       },
       {
         "code": "6278",
@@ -390,17 +390,6 @@
         "current_weight": 1.21
       },
       {
-        "code": "2478",
-        "name": "大毅",
-        "type": "減持",
-        "count_change": -29,
-        "weight_change": 0.0,
-        "prev_count": 4360,
-        "prev_weight": 1.03,
-        "current_count": 4331,
-        "current_weight": 1.03
-      },
-      {
         "code": "2303",
         "name": "聯電",
         "type": "減持",
@@ -410,6 +399,17 @@
         "prev_weight": 1.62,
         "current_count": 5116,
         "current_weight": 1.56
+      },
+      {
+        "code": "2478",
+        "name": "大毅",
+        "type": "減持",
+        "count_change": -29,
+        "weight_change": 0.0,
+        "prev_count": 4360,
+        "prev_weight": 1.03,
+        "current_count": 4331,
+        "current_weight": 1.03
       },
       {
         "code": "2377",
@@ -423,17 +423,6 @@
         "current_weight": 1
       },
       {
-        "code": "3265",
-        "name": "台星科",
-        "type": "減持",
-        "count_change": -24,
-        "weight_change": 0.02,
-        "prev_count": 3369,
-        "prev_weight": 1.19,
-        "current_count": 3345,
-        "current_weight": 1.21
-      },
-      {
         "code": "6139",
         "name": "亞翔",
         "type": "減持",
@@ -445,26 +434,26 @@
         "current_weight": 5.5
       },
       {
-        "code": "3231",
-        "name": "緯創",
+        "code": "3265",
+        "name": "台星科",
         "type": "減持",
-        "count_change": -22,
-        "weight_change": 0.03,
-        "prev_count": 3660,
-        "prev_weight": 1.3,
-        "current_count": 3638,
-        "current_weight": 1.33
+        "count_change": -24,
+        "weight_change": 0.02,
+        "prev_count": 3369,
+        "prev_weight": 1.19,
+        "current_count": 3345,
+        "current_weight": 1.21
       },
       {
-        "code": "5483",
-        "name": "中美晶",
+        "code": "3090",
+        "name": "日電貿",
         "type": "減持",
         "count_change": -22,
-        "weight_change": 0.02,
-        "prev_count": 3437,
-        "prev_weight": 1.25,
-        "current_count": 3415,
-        "current_weight": 1.27
+        "weight_change": 0.0,
+        "prev_count": 3302,
+        "prev_weight": 1.07,
+        "current_count": 3280,
+        "current_weight": 1.07
       },
       {
         "code": "6214",
@@ -478,15 +467,26 @@
         "current_weight": 1.29
       },
       {
-        "code": "3090",
-        "name": "日電貿",
+        "code": "5483",
+        "name": "中美晶",
         "type": "減持",
         "count_change": -22,
-        "weight_change": 0.0,
-        "prev_count": 3302,
-        "prev_weight": 1.07,
-        "current_count": 3280,
-        "current_weight": 1.07
+        "weight_change": 0.02,
+        "prev_count": 3437,
+        "prev_weight": 1.25,
+        "current_count": 3415,
+        "current_weight": 1.27
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "type": "減持",
+        "count_change": -22,
+        "weight_change": 0.03,
+        "prev_count": 3660,
+        "prev_weight": 1.3,
+        "current_count": 3638,
+        "current_weight": 1.33
       },
       {
         "code": "5425",
@@ -847,17 +847,6 @@
         "current_weight": 1.78
       },
       {
-        "code": "6223",
-        "name": "旺矽科技",
-        "type": "減持",
-        "count_change": -30,
-        "weight_change": -0.27,
-        "prev_count": 280,
-        "prev_weight": 1.99,
-        "current_count": 250,
-        "current_weight": 1.72
-      },
-      {
         "code": "2383",
         "name": "台光電子",
         "type": "減持",
@@ -867,6 +856,17 @@
         "prev_weight": 8.74,
         "current_count": 1350,
         "current_weight": 8.64
+      },
+      {
+        "code": "6223",
+        "name": "旺矽科技",
+        "type": "減持",
+        "count_change": -30,
+        "weight_change": -0.27,
+        "prev_count": 280,
+        "prev_weight": 1.99,
+        "current_count": 250,
+        "current_weight": 1.72
       },
       {
         "code": "2059",
