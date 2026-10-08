@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-07 19:14:51",
+  "updated_at": "2026-10-08 19:28:26",
   "source": "https://www.moneydj.com/etf/x/rank/rank0013-1.xdjhtm?erank=click",
-  "total": 32,
-  "ranked": 28,
+  "total": 31,
+  "ranked": 27,
   "no_data": 4,
   "ranking": [
     {
@@ -342,20 +342,6 @@
       "rank": 24
     },
     {
-      "code": "00998A",
-      "name": "主動復華金融股息",
-      "date": "10/07",
-      "currency": "台幣",
-      "return_1d": 2.95,
-      "return_1w": 0.06,
-      "return_ytd": 9.74,
-      "return_1m": -5.24,
-      "return_3m": -0.64,
-      "return_6m": null,
-      "return_1y": null,
-      "rank": 25
-    },
-    {
       "code": "00997A",
       "name": "主動群益美國增長",
       "date": "10/07",
@@ -367,7 +353,7 @@
       "return_3m": -3.91,
       "return_6m": null,
       "return_1y": null,
-      "rank": 26
+      "rank": 25
     },
     {
       "code": "00990A",
@@ -381,7 +367,7 @@
       "return_3m": -8.31,
       "return_6m": 36.01,
       "return_1y": null,
-      "rank": 27
+      "rank": 26
     },
     {
       "code": "00988A",
@@ -395,7 +381,7 @@
       "return_3m": -10.35,
       "return_6m": 35.94,
       "return_1y": null,
-      "rank": 28
+      "rank": 27
     },
     {
       "code": "00409A",
