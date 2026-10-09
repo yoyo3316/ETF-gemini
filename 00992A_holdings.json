@@ -24961,7 +24961,7 @@
     },
     {
         "data_date": "2026/10/08",
-        "is_latest": true,
+        "is_latest": false,
         "price_info": {
             "price": "20.01",
             "change_value": "-0.13",
