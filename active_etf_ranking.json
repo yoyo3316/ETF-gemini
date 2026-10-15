@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14 19:14:52",
+  "updated_at": "2026-10-15 19:14:50",
   "source": "https://www.moneydj.com/etf/x/rank/rank0013-1.xdjhtm?erank=click",
-  "total": 31,
-  "ranked": 27,
+  "total": 32,
+  "ranked": 28,
   "no_data": 4,
   "ranking": [
     {
@@ -216,6 +216,20 @@
       "rank": 15
     },
     {
+      "code": "00983A",
+      "name": "主動中信ARK創新",
+      "date": "10/14",
+      "currency": "台幣",
+      "return_1d": 0.46,
+      "return_1w": -2.48,
+      "return_ytd": 9.26,
+      "return_1m": 7.9,
+      "return_3m": 7.81,
+      "return_6m": 19.41,
+      "return_1y": 1.17,
+      "rank": 16
+    },
+    {
       "code": "00404A",
       "name": "主動聯博動能50",
       "date": "10/14",
@@ -227,7 +241,7 @@
       "return_3m": 7.63,
       "return_6m": null,
       "return_1y": null,
-      "rank": 16
+      "rank": 17
     },
     {
       "code": "00984A",
@@ -241,7 +255,7 @@
       "return_3m": 5.58,
       "return_6m": 26.13,
       "return_1y": 69.38,
-      "rank": 17
+      "rank": 18
     },
     {
       "code": "00982A",
@@ -255,7 +269,7 @@
       "return_3m": 5.27,
       "return_6m": 34.47,
       "return_1y": 99.14,
-      "rank": 18
+      "rank": 19
     },
     {
       "code": "00996A",
@@ -269,7 +283,7 @@
       "return_3m": 4.58,
       "return_6m": 37.25,
       "return_1y": null,
-      "rank": 19
+      "rank": 20
     },
     {
       "code": "00991A",
@@ -283,7 +297,7 @@
       "return_3m": 4.1,
       "return_6m": 36.14,
       "return_1y": null,
-      "rank": 20
+      "rank": 21
     },
     {
       "code": "00402A",
@@ -297,7 +311,7 @@
       "return_3m": 3.89,
       "return_6m": null,
       "return_1y": null,
-      "rank": 21
+      "rank": 22
     },
     {
       "code": "00989A",
@@ -311,7 +325,7 @@
       "return_3m": 2.68,
       "return_6m": 23.92,
       "return_1y": null,
-      "rank": 22
+      "rank": 23
     },
     {
       "code": "00986A",
@@ -325,7 +339,7 @@
       "return_3m": 0.68,
       "return_6m": 15.63,
       "return_1y": 37.81,
-      "rank": 23
+      "rank": 24
     },
     {
       "code": "00997A",
@@ -339,7 +353,7 @@
       "return_3m": -4.17,
       "return_6m": null,
       "return_1y": null,
-      "rank": 24
+      "rank": 25
     },
     {
       "code": "00998A",
@@ -353,7 +367,7 @@
       "return_3m": -4.18,
       "return_6m": null,
       "return_1y": null,
-      "rank": 25
+      "rank": 26
     },
     {
       "code": "00990A",
@@ -367,7 +381,7 @@
       "return_3m": -8.18,
       "return_6m": 10.0,
       "return_1y": null,
-      "rank": 26
+      "rank": 27
     },
     {
       "code": "00988A",
@@ -381,7 +395,7 @@
       "return_3m": -10.22,
       "return_6m": 5.93,
       "return_1y": null,
-      "rank": 27
+      "rank": 28
     },
     {
       "code": "00412A",
