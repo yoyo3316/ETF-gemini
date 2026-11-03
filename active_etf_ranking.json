@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 19:14:50",
+  "updated_at": "2026-11-03 19:14:50",
   "source": "https://www.moneydj.com/etf/x/rank/rank0013-1.xdjhtm?erank=click",
   "total": 34,
   "ranked": 29,
@@ -412,6 +412,20 @@
       "rank": 29
     },
     {
+      "code": "00416A",
+      "name": "主動台新臺灣中小",
+      "date": "N/A",
+      "currency": "台幣",
+      "return_1d": null,
+      "return_1w": null,
+      "return_ytd": null,
+      "return_1m": null,
+      "return_3m": null,
+      "return_6m": null,
+      "return_1y": null,
+      "rank": null
+    },
+    {
       "code": "00412A",
       "name": "主動安聯亞半導體",
       "date": "11/02",
@@ -448,20 +462,6 @@
       "return_1w": -3.56,
       "return_ytd": 9.9,
       "return_1m": -12.39,
-      "return_3m": null,
-      "return_6m": null,
-      "return_1y": null,
-      "rank": null
-    },
-    {
-      "code": "00411A",
-      "name": "主動統一前沿科技",
-      "date": "11/02",
-      "currency": "台幣",
-      "return_1d": -1.34,
-      "return_1w": -3.32,
-      "return_ytd": -0.52,
-      "return_1m": -10.36,
       "return_3m": null,
       "return_6m": null,
       "return_1y": null,
